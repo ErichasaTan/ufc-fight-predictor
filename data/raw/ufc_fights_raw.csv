@@ -1,0 +1,314 @@
+event_url,fight_url,red_fighter,blue_fighter,weight_class,winner,red_kd,blue_kd,red_sig_str_landed,red_sig_str_attempted,blue_sig_str_landed,blue_sig_str_attempted,red_td_landed,red_td_attempted,blue_td_landed,blue_td_attempted
+http://ufcstats.com/event-details/bd92cf5da5413d2a,http://ufcstats.com/fight-details/4a0db214d9721d6e,Merab Dvalishvili,Petr Yan,Bantamweight,,,,,,,,,,,
+http://ufcstats.com/event-details/bd92cf5da5413d2a,http://ufcstats.com/fight-details/dfa692db6d39330c,Alexandre Pantoja,Joshua Van,Flyweight,,,,,,,,,,,
+http://ufcstats.com/event-details/bd92cf5da5413d2a,http://ufcstats.com/fight-details/fbbb9e72900b71f5,Brandon Moreno,Tatsuro Taira,Flyweight,,,,,,,,,,,
+http://ufcstats.com/event-details/bd92cf5da5413d2a,http://ufcstats.com/fight-details/1dc29f4c6fcdd356,Henry Cejudo,Payton Talbott,Bantamweight,,,,,,,,,,,
+http://ufcstats.com/event-details/bd92cf5da5413d2a,http://ufcstats.com/fight-details/6d6ab10cbaa45e8c,Jan Blachowicz,Bogdan Guskov,Light Heavyweight,,,,,,,,,,,
+http://ufcstats.com/event-details/bd92cf5da5413d2a,http://ufcstats.com/fight-details/c797b58d85c840a4,Grant Dawson,Manuel Torres,Lightweight,,,,,,,,,,,
+http://ufcstats.com/event-details/bd92cf5da5413d2a,http://ufcstats.com/fight-details/b3d2ac2244e4f791,Terrance McKinney,Chris Duncan,Lightweight,,,,,,,,,,,
+http://ufcstats.com/event-details/bd92cf5da5413d2a,http://ufcstats.com/fight-details/2417cc7bc1eea75b,Maycee Barber,Karine Silva,Women's Flyweight,,,,,,,,,,,
+http://ufcstats.com/event-details/bd92cf5da5413d2a,http://ufcstats.com/fight-details/10a57b983e59f727,Nazim Sadykhov,Fares Ziam,Lightweight,,,,,,,,,,,
+http://ufcstats.com/event-details/bd92cf5da5413d2a,http://ufcstats.com/fight-details/3c683da1924b6c44,Marvin Vettori,Brunno Ferreira,Middleweight,,,,,,,,,,,
+http://ufcstats.com/event-details/bd92cf5da5413d2a,http://ufcstats.com/fight-details/7af407397532f7cf,Edson Barboza,Jalin Turner,Lightweight,,,,,,,,,,,
+http://ufcstats.com/event-details/bd92cf5da5413d2a,http://ufcstats.com/fight-details/ea660db65bfa998f,Iwo Baraniewski,Ibo Aslan,Light Heavyweight,,,,,,,,,,,
+http://ufcstats.com/event-details/bd92cf5da5413d2a,http://ufcstats.com/fight-details/964ea1777695851b,Mansur Abdul-Malik,Antonio Trocoli,Middleweight,,,,,,,,,,,
+http://ufcstats.com/event-details/bd92cf5da5413d2a,http://ufcstats.com/fight-details/40fa4f8b4b93884e,Muhammad Naimov,Mairon Santos,Featherweight,,,,,,,,,,,
+http://ufcstats.com/event-details/92c96df8bdab5fea,http://ufcstats.com/fight-details/5f5b626e67529056,Arman Tsarukyan,Dan Hooker,Lightweight,Red,0.0,0.0,19.0,30.0,5.0,20.0,1.0,3.0,0.0,0.0
+http://ufcstats.com/event-details/92c96df8bdab5fea,http://ufcstats.com/fight-details/b2218930b982d9b6,Ian Machado Garry,Belal Muhammad,Welterweight,Blue,0.0,0.0,24.0,57.0,27.0,53.0,0.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/92c96df8bdab5fea,http://ufcstats.com/fight-details/870d374f8d9af65a,Volkan Oezdemir,Alonzo Menifield,Light Heavyweight,Red,1.0,0.0,13.0,35.0,2.0,7.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/92c96df8bdab5fea,http://ufcstats.com/fight-details/8ed609d80e135d94,Myktybek Orolbai,Jack Hermansson,Welterweight,Blue,0.0,1.0,19.0,38.0,15.0,33.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/92c96df8bdab5fea,http://ufcstats.com/fight-details/e8307c7686c42d8c,Waldo Cortes Acosta,Shamil Gaziev,Heavyweight,Red,2.0,0.0,10.0,21.0,6.0,15.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/92c96df8bdab5fea,http://ufcstats.com/fight-details/00ee51bba08b7a08,Kyoji Horiguchi,Tagir Ulanbekov,Flyweight,Blue,0.0,0.0,5.0,24.0,16.0,25.0,1.0,1.0,0.0,1.0
+http://ufcstats.com/event-details/92c96df8bdab5fea,http://ufcstats.com/fight-details/5e6a74db89f5410c,Luke Riley,Bogdan Grad,Featherweight,Blue,0.0,0.0,6.0,9.0,3.0,7.0,4.0,7.0,0.0,0.0
+http://ufcstats.com/event-details/92c96df8bdab5fea,http://ufcstats.com/fight-details/c49485cedb878cf0,Nicolas Dalby,Saygid Izagakhmaev,Welterweight,Red,0.0,0.0,5.0,15.0,7.0,12.0,0.0,1.0,1.0,2.0
+http://ufcstats.com/event-details/92c96df8bdab5fea,http://ufcstats.com/fight-details/443f30a4a856584a,Asu Almabayev,Alex Perez,Flyweight,Blue,0.0,0.0,18.0,60.0,20.0,45.0,0.0,0.0,1.0,3.0
+http://ufcstats.com/event-details/92c96df8bdab5fea,http://ufcstats.com/fight-details/f5564a9eeebd4ea0,Abdul Rakhman Yakhyaev,Rafael Cerqueira,Light Heavyweight,Red,1.0,0.0,6.0,10.0,0.0,1.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/92c96df8bdab5fea,http://ufcstats.com/fight-details/6f0231915cc28507,Aleksandre Topuria,Bekzat Almakhan,Bantamweight,Blue,0.0,0.0,12.0,39.0,17.0,28.0,0.0,0.0,1.0,1.0
+http://ufcstats.com/event-details/92c96df8bdab5fea,http://ufcstats.com/fight-details/335064c3380e2f10,Ismail Naurdiev,Ryan Loder,Middleweight,Red,1.0,0.0,3.0,6.0,1.0,4.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/92c96df8bdab5fea,http://ufcstats.com/fight-details/46f81d5ecd974c1c,Nurullo Aliev,Shem Rock,Lightweight,Red,0.0,0.0,28.0,53.0,12.0,29.0,0.0,1.0,0.0,2.0
+http://ufcstats.com/event-details/92c96df8bdab5fea,http://ufcstats.com/fight-details/9027e156c6f1988a,Denzel Freeman,Marek Bujlo,Heavyweight,Blue,0.0,0.0,14.0,26.0,13.0,22.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/8db1b36dde268ef6,http://ufcstats.com/fight-details/856f6ee049373843,Islam Makhachev,Jack Della Maddalena,Welterweight,Blue,0.0,0.0,4.0,18.0,3.0,8.0,0.0,0.0,1.0,1.0
+http://ufcstats.com/event-details/8db1b36dde268ef6,http://ufcstats.com/fight-details/7606f6b6c19f2d73,Valentina Shevchenko,Zhang Weili,Women's Flyweight,Red,0.0,0.0,8.0,13.0,7.0,17.0,1.0,1.0,0.0,1.0
+http://ufcstats.com/event-details/8db1b36dde268ef6,http://ufcstats.com/fight-details/477af74ea3cbba8b,Michael Morales,Sean Brady,Welterweight,Blue,0.0,1.0,8.0,22.0,24.0,52.0,0.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/8db1b36dde268ef6,http://ufcstats.com/fight-details/3c60884853766487,Carlos Prates,Leon Edwards,Welterweight,Blue,0.0,0.0,7.0,10.0,9.0,17.0,2.0,3.0,0.0,0.0
+http://ufcstats.com/event-details/8db1b36dde268ef6,http://ufcstats.com/fight-details/9b5f190cd3f5ce16,Benoit Saint Denis,Beneil Dariush,Lightweight,Blue,0.0,1.0,3.0,5.0,3.0,5.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/8db1b36dde268ef6,http://ufcstats.com/fight-details/292b83afa418635f,Bo Nickal,Rodolfo Vieira,Middleweight,Red,0.0,0.0,28.0,46.0,7.0,19.0,2.0,2.0,0.0,2.0
+http://ufcstats.com/event-details/8db1b36dde268ef6,http://ufcstats.com/fight-details/ebb012c5f3fd0cbb,Gregory Rodrigues,Roman Kopylov,Middleweight,Blue,0.0,0.0,9.0,16.0,20.0,35.0,1.0,1.0,0.0,2.0
+http://ufcstats.com/event-details/8db1b36dde268ef6,http://ufcstats.com/fight-details/909cd8633507a0c8,Erin Blanchfield,Tracy Cortez,Women's Flyweight,Red,0.0,0.0,43.0,92.0,32.0,76.0,0.0,0.0,0.0,1.0
+http://ufcstats.com/event-details/8db1b36dde268ef6,http://ufcstats.com/fight-details/e313286b307334a7,Ethyn Ewing,Malcolm Wellmaker,Featherweight,Blue,0.0,0.0,21.0,27.0,12.0,29.0,0.0,2.0,1.0,1.0
+http://ufcstats.com/event-details/8db1b36dde268ef6,http://ufcstats.com/fight-details/9bbdc2a2ab334541,Kyle Daukaus,Gerald Meerschaert,Middleweight,Red,1.0,0.0,8.0,11.0,0.0,2.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/8db1b36dde268ef6,http://ufcstats.com/fight-details/e3cbd663732f4a98,Pat Sabatini,Chepe Mariscal,Featherweight,Red,0.0,0.0,4.0,11.0,1.0,4.0,2.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/8db1b36dde268ef6,http://ufcstats.com/fight-details/6c2c6a6e3f4d04db,Fatima Kline,Angela Hill,Women's Strawweight,Blue,0.0,0.0,9.0,26.0,25.0,44.0,0.0,0.0,2.0,2.0
+http://ufcstats.com/event-details/8db1b36dde268ef6,http://ufcstats.com/fight-details/c037cf1f7b429d5e,Baisangur Susurkaev,Eric McConico,Middleweight,Red,0.0,0.0,13.0,17.0,17.0,29.0,2.0,5.0,0.0,0.0
+http://ufcstats.com/event-details/8db1b36dde268ef6,http://ufcstats.com/fight-details/1a5378e32e8519ef,Matheus Camilo,Viacheslav Borshchev,Lightweight,Blue,0.0,0.0,9.0,41.0,12.0,30.0,0.0,0.0,2.0,3.0
+http://ufcstats.com/event-details/6436029b50a9c255,http://ufcstats.com/fight-details/4e224ebb6394611d,Gabriel Bonfim,Randy Brown,Welterweight,Red,0.0,0.0,24.0,43.0,19.0,61.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/6436029b50a9c255,http://ufcstats.com/fight-details/f7e9bd2d6f81aeae,Joseph Morales,Matt Schnell,Flyweight,Blue,0.0,0.0,4.0,11.0,5.0,11.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/6436029b50a9c255,http://ufcstats.com/fight-details/b23fa678cc65cf5b,Uros Medic,Muslim Salikhov,Welterweight,Blue,0.0,1.0,2.0,5.0,8.0,13.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/6436029b50a9c255,http://ufcstats.com/fight-details/20971ed9a842b0cb,Chris Padilla,Ismael Bonfim,Lightweight,Red,0.0,0.0,17.0,31.0,14.0,28.0,0.0,0.0,1.0,2.0
+http://ufcstats.com/event-details/6436029b50a9c255,http://ufcstats.com/fight-details/ac4343150638b635,Christian Leroy Duncan,Marco Tulio,Middleweight,Red,0.0,0.0,8.0,18.0,8.0,17.0,1.0,1.0,2.0,4.0
+http://ufcstats.com/event-details/6436029b50a9c255,http://ufcstats.com/fight-details/e3d657dd88864ba7,Jamall Emmers,Hyder Amil,Featherweight,Blue,0.0,0.0,33.0,90.0,28.0,65.0,0.0,1.0,2.0,2.0
+http://ufcstats.com/event-details/6436029b50a9c255,http://ufcstats.com/fight-details/c6d56aad93f98249,Raoni Barcelos,Ricky Simon,Bantamweight,Blue,0.0,0.0,24.0,52.0,16.0,33.0,0.0,2.0,1.0,3.0
+http://ufcstats.com/event-details/6436029b50a9c255,http://ufcstats.com/fight-details/80eae31bc0a94a65,Jacqueline Cavalcanti,Mayra Bueno Silva,Women's Bantamweight,Blue,0.0,0.0,9.0,24.0,21.0,40.0,0.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/6436029b50a9c255,http://ufcstats.com/fight-details/87dcb3eab20f6ac1,Josh Hokit,Max Gimenis,Heavyweight,Red,2.0,0.0,9.0,17.0,3.0,7.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/6436029b50a9c255,http://ufcstats.com/fight-details/9126633d921afb57,Denise Gomes,Tecia Pennington,Women's Strawweight,Blue,0.0,0.0,22.0,51.0,25.0,61.0,0.0,1.0,1.0,3.0
+http://ufcstats.com/event-details/6436029b50a9c255,http://ufcstats.com/fight-details/238c274c90587e21,Daniel Marcos,Miles Johns,Bantamweight,Blue,0.0,0.0,8.0,20.0,12.0,21.0,0.0,1.0,1.0,1.0
+http://ufcstats.com/event-details/6436029b50a9c255,http://ufcstats.com/fight-details/84b66bf7fba2d59d,Zach Reese,Jackson McVey,Catch Weight,Red,0.0,0.0,31.0,40.0,53.0,67.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/0e2c2daf11b5d8f2,http://ufcstats.com/fight-details/747d922b329b7f30,Steve Garcia,David Onama,Featherweight,Red,1.0,0.0,33.0,62.0,2.0,16.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/0e2c2daf11b5d8f2,http://ufcstats.com/fight-details/9d9390b550d77e06,Waldo Cortes Acosta,Ante Delija,Heavyweight,Red,1.0,0.0,12.0,17.0,16.0,36.0,0.0,0.0,0.0,1.0
+http://ufcstats.com/event-details/0e2c2daf11b5d8f2,http://ufcstats.com/fight-details/b0f68344e01884ff,Jeremiah Wells,Themba Gorimbo,Welterweight,Red,0.0,0.0,1.0,3.0,4.0,4.0,1.0,2.0,4.0,6.0
+http://ufcstats.com/event-details/0e2c2daf11b5d8f2,http://ufcstats.com/fight-details/767b78b67c7da17c,Yadier del Valle,Isaac Dulgarian,Featherweight,Blue,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/0e2c2daf11b5d8f2,http://ufcstats.com/fight-details/71c8ca7442bcb757,Charles Radtke,Daniel Frunza,Welterweight,Red,0.0,0.0,9.0,14.0,3.0,10.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/0e2c2daf11b5d8f2,http://ufcstats.com/fight-details/f41c2c82d5117230,Allan Nascimento,Cody Durden,Catch Weight,Red,0.0,0.0,26.0,58.0,36.0,73.0,0.0,1.0,1.0,2.0
+http://ufcstats.com/event-details/0e2c2daf11b5d8f2,http://ufcstats.com/fight-details/f063bcccbbb9edc5,Billy Elekana,Kevin Christian,Light Heavyweight,Red,1.0,0.0,17.0,23.0,14.0,17.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/0e2c2daf11b5d8f2,http://ufcstats.com/fight-details/58f6248da3cdf3ce,Timmy Cuamba,ChangHo Lee,Bantamweight,Red,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,2.0,3.0
+http://ufcstats.com/event-details/0e2c2daf11b5d8f2,http://ufcstats.com/fight-details/c245be6698c1e378,Donte Johnson,Sedriques Dumas,Middleweight,Red,0.0,0.0,9.0,17.0,3.0,10.0,2.0,2.0,1.0,3.0
+http://ufcstats.com/event-details/0e2c2daf11b5d8f2,http://ufcstats.com/fight-details/760150e9951e65fa,Norma Dumont,Ketlen Vieira,Women's Bantamweight,Blue,0.0,0.0,7.0,23.0,17.0,23.0,1.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/0e2c2daf11b5d8f2,http://ufcstats.com/fight-details/32927d50acedb507,Alice Ardelean,Montserrat Conejo Ruiz,Women's Strawweight,Red,0.0,0.0,35.0,91.0,27.0,103.0,0.0,1.0,0.0,1.0
+http://ufcstats.com/event-details/0e2c2daf11b5d8f2,http://ufcstats.com/fight-details/e6031b5937294176,Seokhyeon Ko,Phil Rowe,Welterweight,Blue,0.0,0.0,1.0,1.0,13.0,15.0,0.0,0.0,2.0,2.0
+http://ufcstats.com/event-details/0e2c2daf11b5d8f2,http://ufcstats.com/fight-details/7add5901fac6ab82,Talita Alencar,Ariane Carnelossi,Women's Strawweight,Red,0.0,0.0,18.0,30.0,1.0,17.0,2.0,4.0,0.0,0.0
+http://ufcstats.com/event-details/7956f026e2672c47,http://ufcstats.com/fight-details/6390c8e74630473e,Tom Aspinall,Ciryl Gane,Heavyweight,,0.0,0.0,27.0,39.0,30.0,40.0,0.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/7956f026e2672c47,http://ufcstats.com/fight-details/7d3da3c4153717de,Mackenzie Dern,Virna Jandiroba,Women's Strawweight,Blue,0.0,0.0,27.0,45.0,20.0,36.0,2.0,3.0,0.0,0.0
+http://ufcstats.com/event-details/7956f026e2672c47,http://ufcstats.com/fight-details/e69f9b4b9cae12a4,Umar Nurmagomedov,Mario Bautista,Bantamweight,Red,0.0,0.0,5.0,6.0,1.0,1.0,2.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/7956f026e2672c47,http://ufcstats.com/fight-details/b42a3386a7dccb3d,Alexander Volkov,Jailton Almeida,Heavyweight,Red,0.0,0.0,15.0,15.0,0.0,0.0,0.0,0.0,1.0,2.0
+http://ufcstats.com/event-details/7956f026e2672c47,http://ufcstats.com/fight-details/ef12d2aaaadaf6d0,Azamat Murzakanov,Aleksandar Rakic,Light Heavyweight,Blue,0.0,1.0,9.0,14.0,3.0,8.0,0.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/7956f026e2672c47,http://ufcstats.com/fight-details/cb902d73389ed34b,Quillan Salkilld,Nasrat Haqparast,Lightweight,Blue,0.0,1.0,10.0,13.0,14.0,36.0,0.0,0.0,0.0,4.0
+http://ufcstats.com/event-details/7956f026e2672c47,http://ufcstats.com/fight-details/0230a9dd2739add4,Ikram Aliskerov,JunYong Park,Middleweight,Red,0.0,0.0,35.0,46.0,17.0,43.0,2.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/7956f026e2672c47,http://ufcstats.com/fight-details/e9c034cec33b3479,Ludovit Klein,Mateusz Rebecki,Lightweight,Red,0.0,0.0,25.0,45.0,21.0,50.0,0.0,0.0,0.0,5.0
+http://ufcstats.com/event-details/7956f026e2672c47,http://ufcstats.com/fight-details/f2c2a49fed32bd75,Valter Walker,Louie Sutherland,Heavyweight,Red,0.0,0.0,5.0,5.0,3.0,5.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/7956f026e2672c47,http://ufcstats.com/fight-details/bd7394f07247d9ca,Nathaniel Wood,Jose Delgado,Featherweight,Red,1.0,1.0,24.0,59.0,68.0,111.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/7956f026e2672c47,http://ufcstats.com/fight-details/3fdb4c4b39218cf4,Hamdy Abdelwahab,Chris Barnett,Heavyweight,Red,0.0,0.0,41.0,58.0,8.0,16.0,4.0,6.0,0.0,0.0
+http://ufcstats.com/event-details/7956f026e2672c47,http://ufcstats.com/fight-details/22dd728012944f0a,Mitch Raposo,Azat Maksum,Flyweight,Blue,0.0,0.0,4.0,27.0,4.0,18.0,1.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/7956f026e2672c47,http://ufcstats.com/fight-details/ef1519c8c1d20977,Mizuki,Jaqueline Amorim,Women's Strawweight,Blue,0.0,0.0,12.0,31.0,15.0,32.0,2.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/38e5d9dcb0fddc42,http://ufcstats.com/fight-details/d61373d9fdf01a12,Brendan Allen,Reinier de Ridder,Middleweight,Blue,0.0,0.0,3.0,4.0,2.0,2.0,1.0,3.0,0.0,0.0
+http://ufcstats.com/event-details/38e5d9dcb0fddc42,http://ufcstats.com/fight-details/cdd565a16975c711,Mike Malott,Kevin Holland,Welterweight,Blue,0.0,0.0,9.0,31.0,12.0,29.0,1.0,1.0,0.0,2.0
+http://ufcstats.com/event-details/38e5d9dcb0fddc42,http://ufcstats.com/fight-details/857d274e47aa8c4e,Aiemann Zahabi,Marlon Vera,Bantamweight,Blue,0.0,0.0,11.0,40.0,20.0,37.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/38e5d9dcb0fddc42,http://ufcstats.com/fight-details/c82acd7b17915591,Manon Fiorot,Jasmine Jasudavicius,Women's Flyweight,Red,0.0,0.0,16.0,27.0,2.0,14.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/38e5d9dcb0fddc42,http://ufcstats.com/fight-details/a18edcb638ba7e39,Charles Jourdain,Davey Grant,Bantamweight,Red,1.0,0.0,25.0,43.0,9.0,26.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/38e5d9dcb0fddc42,http://ufcstats.com/fight-details/3af1bdc5a510bba9,Kyle Nelson,Matt Frevola,Lightweight,Red,1.0,0.0,23.0,55.0,15.0,54.0,0.0,0.0,1.0,1.0
+http://ufcstats.com/event-details/38e5d9dcb0fddc42,http://ufcstats.com/fight-details/ecdbb3a5216b815e,Drew Dober,Kyle Prepolec,Lightweight,Blue,0.0,0.0,17.0,66.0,28.0,58.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/38e5d9dcb0fddc42,http://ufcstats.com/fight-details/970f083af8368f57,Aoriqileng,Cody Gibson,Bantamweight,Blue,0.0,1.0,3.0,3.0,5.0,8.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/38e5d9dcb0fddc42,http://ufcstats.com/fight-details/668a44403a130043,Bruno Silva,HyunSung Park,Flyweight,Red,0.0,0.0,20.0,33.0,10.0,31.0,1.0,1.0,1.0,4.0
+http://ufcstats.com/event-details/38e5d9dcb0fddc42,http://ufcstats.com/fight-details/096e00355c8c84ac,Djorden Santos,Danny Barlow,Middleweight,Blue,0.0,0.0,32.0,49.0,27.0,49.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/38e5d9dcb0fddc42,http://ufcstats.com/fight-details/8d9458121f0c4b95,Stephanie Luciano,Ravena Oliveira,Women's Strawweight,Red,0.0,0.0,25.0,56.0,14.0,54.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/38e5d9dcb0fddc42,http://ufcstats.com/fight-details/87ac0e5face106b4,Yousri Belgaroui,Azamat Bekoev,Middleweight,Blue,0.0,0.0,10.0,30.0,37.0,51.0,3.0,5.0,0.0,0.0
+http://ufcstats.com/event-details/38e5d9dcb0fddc42,http://ufcstats.com/fight-details/dec301fd5e99ca46,Melissa Croden,Tainara Lisboa,Women's Bantamweight,Red,0.0,0.0,27.0,57.0,25.0,56.0,0.0,0.0,0.0,1.0
+http://ufcstats.com/event-details/9336e86cfd4ceaa1,http://ufcstats.com/fight-details/79865287be90e4be,Charles Oliveira,Mateusz Gamrot,Lightweight,Red,0.0,0.0,3.0,8.0,4.0,7.0,0.0,0.0,1.0,1.0
+http://ufcstats.com/event-details/9336e86cfd4ceaa1,http://ufcstats.com/fight-details/f295eb2a7b0ba4b7,Deiveson Figueiredo,Montel Jackson,Bantamweight,Red,0.0,0.0,8.0,13.0,8.0,20.0,1.0,3.0,0.0,0.0
+http://ufcstats.com/event-details/9336e86cfd4ceaa1,http://ufcstats.com/fight-details/6188b7fb3f8daacc,Joel Alvarez,Vicente Luque,Welterweight,Blue,0.0,0.0,21.0,65.0,38.0,67.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/9336e86cfd4ceaa1,http://ufcstats.com/fight-details/03377f7bf8a2d5ff,Mario Pinto,Jhonata Diniz,Heavyweight,Blue,0.0,0.0,1.0,2.0,12.0,14.0,0.0,0.0,2.0,2.0
+http://ufcstats.com/event-details/9336e86cfd4ceaa1,http://ufcstats.com/fight-details/2aef1a91d26dde42,Kaan Ofli,Ricardo Ramos,Featherweight,Blue,0.0,0.0,1.0,4.0,1.0,1.0,0.0,0.0,1.0,1.0
+http://ufcstats.com/event-details/9336e86cfd4ceaa1,http://ufcstats.com/fight-details/cff0abc02974fb4a,Michael Aswell Jr.,Lucas Almeida,Featherweight,Blue,0.0,2.0,9.0,21.0,30.0,54.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/9336e86cfd4ceaa1,http://ufcstats.com/fight-details/766b0b26c40525de,Jafel Filho,Clayton Carpenter,Flyweight,Red,0.0,0.0,5.0,13.0,7.0,21.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/9336e86cfd4ceaa1,http://ufcstats.com/fight-details/a815dafc89adf33b,Vitor Petrino,Thomas Petersen,Heavyweight,Red,1.0,0.0,13.0,20.0,1.0,5.0,1.0,3.0,0.0,6.0
+http://ufcstats.com/event-details/9336e86cfd4ceaa1,http://ufcstats.com/fight-details/546f971f9d8e0a33,Bia Mesquita,Irina Alekseeva,Women's Bantamweight,Red,0.0,0.0,36.0,58.0,3.0,13.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/9336e86cfd4ceaa1,http://ufcstats.com/fight-details/434abaea90ccd299,Lucas Rocha,Stewart Nicoll,Flyweight,Red,0.0,0.0,15.0,40.0,14.0,38.0,0.0,0.0,2.0,12.0
+http://ufcstats.com/event-details/9336e86cfd4ceaa1,http://ufcstats.com/fight-details/c547b3e95bcc5f24,Julia Polastri,Karolina Kowalkiewicz,Women's Strawweight,Red,0.0,0.0,53.0,93.0,22.0,61.0,0.0,0.0,0.0,3.0
+http://ufcstats.com/event-details/9336e86cfd4ceaa1,http://ufcstats.com/fight-details/0f9e7d0d04e24b74,Luan Lacerda,Saimon Oliveira,Bantamweight,Red,0.0,0.0,10.0,20.0,6.0,8.0,2.0,2.0,1.0,2.0
+http://ufcstats.com/event-details/8944a0f9b2f0ce6d,http://ufcstats.com/fight-details/0de1ef0b9f3a79c0,Alex Pereira,Magomed Ankalaev,Light Heavyweight,Blue,0.0,0.0,4.0,9.0,28.0,45.0,0.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/8944a0f9b2f0ce6d,http://ufcstats.com/fight-details/a8511df8285f5c91,Merab Dvalishvili,Cory Sandhagen,Bantamweight,Red,0.0,0.0,11.0,46.0,27.0,53.0,1.0,4.0,0.0,0.0
+http://ufcstats.com/event-details/8944a0f9b2f0ce6d,http://ufcstats.com/fight-details/2560ea97b2cce4ef,Jiri Prochazka,Khalil Rountree Jr.,Light Heavyweight,Red,0.0,0.0,12.0,24.0,15.0,32.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/8944a0f9b2f0ce6d,http://ufcstats.com/fight-details/84ebd144d5e79c88,Youssef Zalal,Josh Emmett,Featherweight,Blue,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0
+http://ufcstats.com/event-details/8944a0f9b2f0ce6d,http://ufcstats.com/fight-details/d006dd2513bd376d,Joe Pyfer,Abus Magomedov,Middleweight,Blue,0.0,0.0,11.0,12.0,1.0,3.0,1.0,1.0,0.0,4.0
+http://ufcstats.com/event-details/8944a0f9b2f0ce6d,http://ufcstats.com/fight-details/9418ebb3db2a4bae,Ateba Gautier,Tre'ston Vines,Middleweight,Red,1.0,0.0,6.0,12.0,0.0,1.0,1.0,1.0,0.0,2.0
+http://ufcstats.com/event-details/8944a0f9b2f0ce6d,http://ufcstats.com/fight-details/7b34aa1eb09b8301,Daniel Santos,JooSang Yoo,Catch Weight,Red,0.0,0.0,17.0,47.0,28.0,49.0,1.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/8944a0f9b2f0ce6d,http://ufcstats.com/fight-details/b09ecdc8ef0f0d20,Jakub Wiklacz,Patchy Mix,Bantamweight,Blue,0.0,0.0,5.0,8.0,13.0,24.0,2.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/8944a0f9b2f0ce6d,http://ufcstats.com/fight-details/1c7cc3a22ab7d907,Edmen Shahbazyan,Andre Muniz,Middleweight,Red,1.0,0.0,25.0,50.0,15.0,38.0,0.0,0.0,1.0,3.0
+http://ufcstats.com/event-details/8944a0f9b2f0ce6d,http://ufcstats.com/fight-details/a951090fb402fd20,Punahele Soriano,Nikolay Veretennikov,Welterweight,Red,0.0,0.0,21.0,30.0,6.0,7.0,1.0,3.0,0.0,1.0
+http://ufcstats.com/event-details/8944a0f9b2f0ce6d,http://ufcstats.com/fight-details/8353b491afa7bc32,Yana Santos,Macy Chiasson,Women's Bantamweight,Blue,0.0,0.0,14.0,33.0,31.0,50.0,0.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/8944a0f9b2f0ce6d,http://ufcstats.com/fight-details/e53fd165a3bc1f8e,Farid Basharat,Chris Gutierrez,Bantamweight,Blue,0.0,0.0,3.0,7.0,9.0,24.0,0.0,0.0,1.0,1.0
+http://ufcstats.com/event-details/8944a0f9b2f0ce6d,http://ufcstats.com/fight-details/b98bc1ecb94ef4a5,Ramiz Brahimaj,Austin Vanderford,Welterweight,Red,0.0,0.0,4.0,13.0,4.0,12.0,0.0,0.0,1.0,1.0
+http://ufcstats.com/event-details/8944a0f9b2f0ce6d,http://ufcstats.com/fight-details/98883348ddb3be33,Veronica Hardy,Brogan Walker,Women's Flyweight,Red,0.0,0.0,9.0,20.0,7.0,15.0,0.0,0.0,1.0,1.0
+http://ufcstats.com/event-details/ed220e87bef0cc64,http://ufcstats.com/fight-details/a3ee907c77544cde,Carlos Ulberg,Dominick Reyes,Light Heavyweight,Red,1.0,0.0,11.0,17.0,5.0,11.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/ed220e87bef0cc64,http://ufcstats.com/fight-details/f5fb8b182020c59d,Jimmy Crute,Ivan Erslan,Light Heavyweight,Red,0.0,0.0,12.0,16.0,10.0,14.0,2.0,4.0,0.0,0.0
+http://ufcstats.com/event-details/ed220e87bef0cc64,http://ufcstats.com/fight-details/38248c5d13f273e6,Jack Jenkins,Ramon Taveras,Featherweight,Red,0.0,0.0,32.0,56.0,16.0,43.0,0.0,0.0,0.0,1.0
+http://ufcstats.com/event-details/ed220e87bef0cc64,http://ufcstats.com/fight-details/1ff24d5f760e0491,Neil Magny,Jake Matthews,Welterweight,Blue,0.0,0.0,9.0,20.0,18.0,32.0,0.0,0.0,1.0,2.0
+http://ufcstats.com/event-details/ed220e87bef0cc64,http://ufcstats.com/fight-details/8abad36b4c5e4070,Tom Nolan,Charlie Campbell,Lightweight,Red,0.0,0.0,26.0,61.0,15.0,42.0,1.0,1.0,0.0,1.0
+http://ufcstats.com/event-details/ed220e87bef0cc64,http://ufcstats.com/fight-details/dc31d3260dea7dcf,Navajo Stirling,Rodolfo Bellato,Light Heavyweight,Red,0.0,0.0,37.0,62.0,15.0,33.0,0.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/ed220e87bef0cc64,http://ufcstats.com/fight-details/93a0a19c2c1cfe66,Cam Rowston,Andre Petroski,Middleweight,Red,1.0,0.0,12.0,36.0,7.0,13.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/ed220e87bef0cc64,http://ufcstats.com/fight-details/e2dc4fb7b5c0ce76,Jamie Mullarkey,Rolando Bedoya,Lightweight,Red,0.0,0.0,3.0,8.0,5.0,10.0,2.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/ed220e87bef0cc64,http://ufcstats.com/fight-details/81127436605d3c88,Colby Thicknesse,Josias Musasa,Bantamweight,Red,0.0,0.0,43.0,75.0,12.0,27.0,1.0,6.0,1.0,2.0
+http://ufcstats.com/event-details/ed220e87bef0cc64,http://ufcstats.com/fight-details/44cd8c9f622e155f,Michelle Montague,Luana Carolina,Women's Bantamweight,Red,0.0,0.0,10.0,32.0,24.0,36.0,1.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/ed220e87bef0cc64,http://ufcstats.com/fight-details/140937779a2466a7,Brando Pericic,Elisha Ellison,Heavyweight,Red,0.0,0.0,29.0,49.0,3.0,9.0,0.0,0.0,0.0,2.0
+http://ufcstats.com/event-details/ed220e87bef0cc64,http://ufcstats.com/fight-details/e35f7504d83b8b07,Alexia Thainara,Loma Lookboonmee,Women's Strawweight,Blue,0.0,0.0,15.0,21.0,24.0,48.0,0.0,1.0,2.0,4.0
+http://ufcstats.com/event-details/5efaaf313b652dd7,http://ufcstats.com/fight-details/de1a3734be60e6a1,Diego Lopes,Jean Silva,Featherweight,Red,0.0,0.0,43.0,77.0,10.0,20.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/5efaaf313b652dd7,http://ufcstats.com/fight-details/944b929130b23c2a,David Martinez,Rob Font,Bantamweight,Blue,0.0,0.0,11.0,51.0,22.0,45.0,0.0,2.0,0.0,1.0
+http://ufcstats.com/event-details/5efaaf313b652dd7,http://ufcstats.com/fight-details/7cbfeba85f86d1bf,Rafa Garcia,Jared Gordon,Lightweight,Red,0.0,0.0,22.0,41.0,23.0,64.0,1.0,1.0,0.0,1.0
+http://ufcstats.com/event-details/5efaaf313b652dd7,http://ufcstats.com/fight-details/114d2f6fcd3f6f00,Kelvin Gastelum,Dustin Stoltzfus,Middleweight,Red,0.0,0.0,14.0,25.0,24.0,49.0,0.0,0.0,1.0,1.0
+http://ufcstats.com/event-details/5efaaf313b652dd7,http://ufcstats.com/fight-details/202c47db69768356,Alexander Hernandez,Diego Ferreira,Lightweight,Red,0.0,0.0,12.0,36.0,11.0,53.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/5efaaf313b652dd7,http://ufcstats.com/fight-details/8a884a7930d75ca9,Santiago Luna,Quang Le,Bantamweight,Red,2.0,0.0,15.0,40.0,12.0,24.0,0.0,1.0,0.0,1.0
+http://ufcstats.com/event-details/5efaaf313b652dd7,http://ufcstats.com/fight-details/07a378b257aad5a9,Dusko Todorovic,Jose Daniel Medina,Middleweight,Blue,0.0,0.0,9.0,25.0,16.0,24.0,0.0,0.0,2.0,2.0
+http://ufcstats.com/event-details/5efaaf313b652dd7,http://ufcstats.com/fight-details/352839a03b428e74,Joaquim Silva,Claudio Puelles,Lightweight,Blue,0.0,0.0,3.0,8.0,0.0,4.0,2.0,3.0,0.0,0.0
+http://ufcstats.com/event-details/5efaaf313b652dd7,http://ufcstats.com/fight-details/9474f64347aade7a,Tatiana Suarez,Amanda Lemos,Women's Strawweight,Red,0.0,0.0,7.0,10.0,5.0,6.0,1.0,5.0,0.0,0.0
+http://ufcstats.com/event-details/5efaaf313b652dd7,http://ufcstats.com/fight-details/3dc1a6335d890650,Jesus Aguilar,Luis Gurule,Flyweight,Red,0.0,0.0,35.0,73.0,12.0,49.0,1.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/5efaaf313b652dd7,http://ufcstats.com/fight-details/d822ebc7dbc6c259,Zach Reese,Sedriques Dumas,Middleweight,,0.0,0.0,2.0,7.0,3.0,10.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/5efaaf313b652dd7,http://ufcstats.com/fight-details/a1e193425e716b42,Alden Coria,Alessandro Costa,Flyweight,Blue,0.0,0.0,10.0,48.0,20.0,57.0,0.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/5efaaf313b652dd7,http://ufcstats.com/fight-details/c4a6174b0698652e,Montse Rendon,Alice Pereira,Women's Bantamweight,Red,0.0,0.0,11.0,40.0,14.0,41.0,0.0,4.0,0.0,0.0
+http://ufcstats.com/event-details/5efaaf313b652dd7,http://ufcstats.com/fight-details/3dd2fde7bff79c51,Daniil Donchenko,Rodrigo Sezinando,Welterweight,Blue,0.0,1.0,10.0,36.0,39.0,68.0,1.0,4.0,1.0,3.0
+http://ufcstats.com/event-details/6e380a4d73ab4f0e,http://ufcstats.com/fight-details/5bcd8abf6da01dae,Nassourdine Imavov,Caio Borralho,Middleweight,Red,0.0,0.0,10.0,18.0,6.0,22.0,0.0,0.0,0.0,2.0
+http://ufcstats.com/event-details/6e380a4d73ab4f0e,http://ufcstats.com/fight-details/d14fea43712707f0,Benoit Saint Denis,Mauricio Ruffy,Lightweight,Red,0.0,0.0,6.0,18.0,1.0,6.0,2.0,5.0,0.0,0.0
+http://ufcstats.com/event-details/6e380a4d73ab4f0e,http://ufcstats.com/fight-details/0149e875b31e57f8,Modestas Bukauskas,Paul Craig,Light Heavyweight,Red,0.0,0.0,22.0,36.0,6.0,14.0,0.0,0.0,0.0,2.0
+http://ufcstats.com/event-details/6e380a4d73ab4f0e,http://ufcstats.com/fight-details/69b31593175f77ec,Mason Jones,Bolaji Oki,Lightweight,Blue,1.0,1.0,29.0,73.0,20.0,57.0,0.0,0.0,1.0,1.0
+http://ufcstats.com/event-details/6e380a4d73ab4f0e,http://ufcstats.com/fight-details/a47123ae6e048f11,Axel Sola,Rhys McKee,Welterweight,Red,0.0,0.0,9.0,25.0,6.0,39.0,1.0,3.0,0.0,0.0
+http://ufcstats.com/event-details/6e380a4d73ab4f0e,http://ufcstats.com/fight-details/b53031bf4bd0a330,William Gomis,Robert Ruchala,Featherweight,Red,0.0,0.0,14.0,30.0,10.0,29.0,0.0,0.0,1.0,1.0
+http://ufcstats.com/event-details/6e380a4d73ab4f0e,http://ufcstats.com/fight-details/4080b4310d82b42d,Oumar Sy,Brendson Ribeiro,Light Heavyweight,Red,0.0,0.0,17.0,43.0,5.0,14.0,2.0,4.0,0.0,0.0
+http://ufcstats.com/event-details/6e380a4d73ab4f0e,http://ufcstats.com/fight-details/23dbe713c4294c66,Ante Delija,Marcin Tybura,Heavyweight,Blue,0.0,1.0,4.0,9.0,13.0,28.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/6e380a4d73ab4f0e,http://ufcstats.com/fight-details/5cd2dd6075fadcce,Kaue Fernandes,Harry Hardwick,Lightweight,Blue,0.0,1.0,8.0,23.0,24.0,40.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/6e380a4d73ab4f0e,http://ufcstats.com/fight-details/420211200a35c1d1,Sam Patterson,Trey Waters,Welterweight,Red,0.0,0.0,25.0,48.0,18.0,38.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/6e380a4d73ab4f0e,http://ufcstats.com/fight-details/b3253e2c2d111030,Robert Bryczek,Brad Tavares,Middleweight,Blue,0.0,1.0,17.0,40.0,39.0,73.0,1.0,1.0,1.0,1.0
+http://ufcstats.com/event-details/6e380a4d73ab4f0e,http://ufcstats.com/fight-details/d56a59a4c79cf515,Rinat Fakhretdinov,Andreas Gustafsson,Welterweight,Blue,0.0,0.0,5.0,19.0,23.0,42.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/6e380a4d73ab4f0e,http://ufcstats.com/fight-details/a38010639e61885c,Sam Hughes,Shauna Bannon,Women's Strawweight,Blue,0.0,0.0,7.0,21.0,13.0,29.0,0.0,1.0,1.0,2.0
+http://ufcstats.com/event-details/754968e325d6f60d,http://ufcstats.com/fight-details/2eecf0c36192e40c,Johnny Walker,Zhang Mingyang,Light Heavyweight,Red,0.0,0.0,9.0,22.0,12.0,30.0,0.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/754968e325d6f60d,http://ufcstats.com/fight-details/58080e8989927500,Aljamain Sterling,Brian Ortega,Catch Weight,Blue,0.0,0.0,2.0,28.0,27.0,44.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/754968e325d6f60d,http://ufcstats.com/fight-details/5538d15c4eeac3b3,Sergei Pavlovich,Waldo Cortes Acosta,Heavyweight,Red,0.0,0.0,9.0,28.0,11.0,34.0,0.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/754968e325d6f60d,http://ufcstats.com/fight-details/ce6bd165bef82bd7,Sumudaerji,Kevin Borjas,Flyweight,Red,0.0,0.0,17.0,35.0,3.0,13.0,0.0,0.0,0.0,1.0
+http://ufcstats.com/event-details/754968e325d6f60d,http://ufcstats.com/fight-details/1452c20d964c0a63,Taiyilake Nueraji,Kiefer Crosbie,Welterweight,Red,0.0,0.0,27.0,38.0,2.0,3.0,1.0,3.0,0.0,1.0
+http://ufcstats.com/event-details/754968e325d6f60d,http://ufcstats.com/fight-details/0b1460c666e66d39,Gauge Young,Maheshate,Lightweight,Blue,0.0,0.0,18.0,44.0,31.0,53.0,0.0,2.0,1.0,1.0
+http://ufcstats.com/event-details/754968e325d6f60d,http://ufcstats.com/fight-details/1ab1ed99a4bc5494,Charles Johnson,Lone'er Kavanagh,Flyweight,Red,0.0,0.0,14.0,25.0,36.0,65.0,0.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/754968e325d6f60d,http://ufcstats.com/fight-details/f55749e32ce5c6f3,Rongzhu,Austin Hubbard,Lightweight,Red,0.0,0.0,20.0,46.0,18.0,59.0,0.0,0.0,1.0,3.0
+http://ufcstats.com/event-details/754968e325d6f60d,http://ufcstats.com/fight-details/130e622d4d2aee3e,Kyle Daukaus,Michel Pereira,Middleweight,Blue,0.0,1.0,2.0,4.0,5.0,8.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/754968e325d6f60d,http://ufcstats.com/fight-details/f0b7caa90faf47e5,Yizha,Westin Wilson,Featherweight,Red,2.0,0.0,13.0,18.0,0.0,2.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/754968e325d6f60d,http://ufcstats.com/fight-details/2f6065fe0804d1d8,SuYoung You,Xiao Long,Bantamweight,Blue,0.0,0.0,11.0,35.0,10.0,15.0,0.0,0.0,0.0,2.0
+http://ufcstats.com/event-details/754968e325d6f60d,http://ufcstats.com/fight-details/7fc5f1dc2df84ac7,Uran Satybaldiev,Diyar Nurgozhay,Light Heavyweight,Red,1.0,0.0,2.0,9.0,7.0,11.0,0.0,0.0,1.0,1.0
+http://ufcstats.com/event-details/421ccfc6ddb17958,http://ufcstats.com/fight-details/12cedec11b37ddc0,Khamzat Chimaev,Dricus Du Plessis,Middleweight,Blue,0.0,0.0,0.0,0.0,1.0,2.0,0.0,0.0,1.0,1.0
+http://ufcstats.com/event-details/421ccfc6ddb17958,http://ufcstats.com/fight-details/9fa6a029f7f8241c,Lerone Murphy,Aaron Pico,Featherweight,Red,1.0,0.0,8.0,16.0,13.0,29.0,0.0,0.0,2.0,3.0
+http://ufcstats.com/event-details/421ccfc6ddb17958,http://ufcstats.com/fight-details/42585ce706c086de,Carlos Prates,Geoff Neal,Welterweight,Blue,0.0,1.0,25.0,49.0,32.0,60.0,0.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/421ccfc6ddb17958,http://ufcstats.com/fight-details/9939d7073462e07e,Michael Page,Jared Cannonier,Middleweight,Blue,0.0,0.0,2.0,16.0,11.0,20.0,0.0,3.0,0.0,1.0
+http://ufcstats.com/event-details/421ccfc6ddb17958,http://ufcstats.com/fight-details/82338ba457fbe87f,Tim Elliott,Kai Asakura,Flyweight,Red,0.0,0.0,16.0,40.0,11.0,45.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/421ccfc6ddb17958,http://ufcstats.com/fight-details/5efd13a12be06706,Baisangur Susurkaev,Eric Nolan,Middleweight,Red,0.0,0.0,19.0,37.0,18.0,49.0,2.0,7.0,0.0,1.0
+http://ufcstats.com/event-details/421ccfc6ddb17958,http://ufcstats.com/fight-details/5b880d10b0ed7acc,Michal Oleksiejczuk,Gerald Meerschaert,Middleweight,Blue,0.0,1.0,3.0,16.0,23.0,51.0,0.0,3.0,0.0,0.0
+http://ufcstats.com/event-details/421ccfc6ddb17958,http://ufcstats.com/fight-details/a2eafd9e1d5031b1,Loopy Godinez,Jessica Andrade,Women's Strawweight,Blue,0.0,0.0,18.0,83.0,40.0,71.0,0.0,0.0,0.0,3.0
+http://ufcstats.com/event-details/421ccfc6ddb17958,http://ufcstats.com/fight-details/1d8dc0fb5d47357f,Alexander Hernandez,Chase Hooper,Lightweight,Blue,0.0,1.0,20.0,82.0,17.0,38.0,0.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/421ccfc6ddb17958,http://ufcstats.com/fight-details/bc63f1b2e52f603e,Drakkar Klose,Edson Barboza,Lightweight,Blue,0.0,0.0,24.0,36.0,15.0,29.0,0.0,0.0,0.0,1.0
+http://ufcstats.com/event-details/421ccfc6ddb17958,http://ufcstats.com/fight-details/88020d22cf905792,Karine Silva,Dione Barbosa,Women's Flyweight,Red,0.0,0.0,10.0,30.0,15.0,41.0,0.0,1.0,1.0,1.0
+http://ufcstats.com/event-details/421ccfc6ddb17958,http://ufcstats.com/fight-details/68c423c7119004f3,Joseph Morales,Alibi Idiris,Flyweight,Blue,0.0,0.0,18.0,27.0,10.0,24.0,0.0,1.0,2.0,3.0
+http://ufcstats.com/event-details/6cd3dfc54f01287f,http://ufcstats.com/fight-details/68fe62bac7fd8bb0,Anthony Hernandez,Roman Dolidze,Middleweight,Blue,0.0,0.0,10.0,31.0,19.0,37.0,0.0,0.0,2.0,4.0
+http://ufcstats.com/event-details/6cd3dfc54f01287f,http://ufcstats.com/fight-details/37d58369782cb86b,Steve Erceg,Ode Osbourne,Bantamweight,Red,0.0,0.0,3.0,11.0,17.0,32.0,1.0,5.0,1.0,1.0
+http://ufcstats.com/event-details/6cd3dfc54f01287f,http://ufcstats.com/fight-details/646c79a7ecd12e5f,Iasmin Lucindo,Angela Hill,Women's Strawweight,Red,0.0,0.0,27.0,68.0,25.0,46.0,1.0,3.0,0.0,3.0
+http://ufcstats.com/event-details/6cd3dfc54f01287f,http://ufcstats.com/fight-details/98d6771af9b0ebe5,Andre Fili,Christian Rodriguez,Featherweight,Red,0.0,0.0,22.0,63.0,29.0,64.0,0.0,0.0,1.0,3.0
+http://ufcstats.com/event-details/6cd3dfc54f01287f,http://ufcstats.com/fight-details/ed5383b50ffcdded,Jean Matsumoto,Miles Johns,Bantamweight,Blue,0.0,0.0,22.0,42.0,16.0,49.0,1.0,2.0,0.0,2.0
+http://ufcstats.com/event-details/6cd3dfc54f01287f,http://ufcstats.com/fight-details/75a84211f50c53f5,Christian Leroy Duncan,Eryk Anders,Middleweight,Blue,0.0,1.0,7.0,12.0,24.0,43.0,1.0,3.0,0.0,0.0
+http://ufcstats.com/event-details/6cd3dfc54f01287f,http://ufcstats.com/fight-details/3d6571790c21527c,Julius Walker,Rafael Cerqueira,Light Heavyweight,Red,0.0,0.0,13.0,22.0,11.0,25.0,3.0,4.0,0.0,0.0
+http://ufcstats.com/event-details/6cd3dfc54f01287f,http://ufcstats.com/fight-details/ae7a8f19743e8154,Elijah Smith,Toshiomi Kazama,Bantamweight,Red,0.0,0.0,37.0,46.0,0.0,0.0,0.0,0.0,1.0,1.0
+http://ufcstats.com/event-details/6cd3dfc54f01287f,http://ufcstats.com/fight-details/aef44145740741b3,Joselyne Edwards,Priscila Cachoeira,Women's Bantamweight,Red,1.0,0.0,26.0,44.0,18.0,50.0,0.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/6cd3dfc54f01287f,http://ufcstats.com/fight-details/7d923267c44dd93b,Uros Medic,Gilbert Urbina,Welterweight,Red,1.0,1.0,5.0,9.0,5.0,10.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/6cd3dfc54f01287f,http://ufcstats.com/fight-details/6ef50ed03b116b60,Gabriella Fernandes,Julija Stoliarenko,Women's Flyweight,Red,0.0,0.0,19.0,45.0,19.0,47.0,0.0,0.0,0.0,2.0
+http://ufcstats.com/event-details/6cd3dfc54f01287f,http://ufcstats.com/fight-details/857e8facd8ff7c36,Eric McConico,Cody Brundage,Light Heavyweight,Blue,0.0,0.0,8.0,18.0,3.0,11.0,1.0,4.0,0.0,0.0
+http://ufcstats.com/event-details/f2c934689243fe4e,http://ufcstats.com/fight-details/282c8c6c1ed82bfb,Tatsuro Taira,HyunSung Park,Flyweight,Red,1.0,0.0,6.0,9.0,2.0,5.0,2.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/f2c934689243fe4e,http://ufcstats.com/fight-details/426a69e343822ab3,Chris Duncan,Mateusz Rebecki,Lightweight,Blue,0.0,0.0,32.0,74.0,19.0,62.0,0.0,1.0,0.0,1.0
+http://ufcstats.com/event-details/f2c934689243fe4e,http://ufcstats.com/fight-details/878941394f9e3538,Esteban Ribovics,Elves Brener,Lightweight,Blue,0.0,0.0,36.0,68.0,39.0,95.0,0.0,6.0,0.0,0.0
+http://ufcstats.com/event-details/f2c934689243fe4e,http://ufcstats.com/fight-details/c62ed8a6002b5360,Karol Rosa,Nora Cornolle,Women's Bantamweight,Red,0.0,0.0,18.0,34.0,24.0,37.0,0.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/f2c934689243fe4e,http://ufcstats.com/fight-details/ac57250e3de89d5d,Neil Magny,Elizeu Zaleski dos Santos,Welterweight,Red,0.0,0.0,17.0,36.0,18.0,36.0,0.0,1.0,0.0,4.0
+http://ufcstats.com/event-details/f2c934689243fe4e,http://ufcstats.com/fight-details/111e66eb922449e4,Kevin Vallejos,Danny Silva,Featherweight,Blue,0.0,0.0,10.0,39.0,19.0,54.0,1.0,1.0,0.0,2.0
+http://ufcstats.com/event-details/f2c934689243fe4e,http://ufcstats.com/fight-details/eeeffa7f514e0c0e,Rinya Nakamura,Nathan Fletcher,Bantamweight,Red,1.0,0.0,12.0,19.0,3.0,7.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/f2c934689243fe4e,http://ufcstats.com/fight-details/45781930d64da456,Rodolfo Vieira,Tresean Gore,Middleweight,Red,0.0,0.0,15.0,26.0,11.0,25.0,1.0,7.0,0.0,0.0
+http://ufcstats.com/event-details/f2c934689243fe4e,http://ufcstats.com/fight-details/b3c695728e177fd4,Andrey Pulyaev,Nick Klein,Middleweight,Blue,0.0,0.0,9.0,18.0,12.0,18.0,3.0,5.0,0.0,0.0
+http://ufcstats.com/event-details/f2c934689243fe4e,http://ufcstats.com/fight-details/07c2af68b6dbc4ec,Austin Bashi,John Yannis,Featherweight,Red,0.0,0.0,2.0,7.0,0.0,5.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/f2c934689243fe4e,http://ufcstats.com/fight-details/b47db03affb279c3,Rafael Estevam,Felipe Bunes,Flyweight,Red,0.0,0.0,8.0,19.0,7.0,14.0,1.0,3.0,0.0,1.0
+http://ufcstats.com/event-details/f2c934689243fe4e,http://ufcstats.com/fight-details/d98d6b2c13557a87,Piera Rodriguez,Ketlen Souza,Women's Strawweight,Red,0.0,0.0,21.0,55.0,19.0,32.0,2.0,3.0,0.0,0.0
+http://ufcstats.com/event-details/28d8638ea0a71908,http://ufcstats.com/fight-details/6b8be0ee3e569ad2,Reinier de Ridder,Robert Whittaker,Middleweight,Blue,0.0,0.0,20.0,34.0,15.0,35.0,0.0,0.0,0.0,3.0
+http://ufcstats.com/event-details/28d8638ea0a71908,http://ufcstats.com/fight-details/d4d4ee045b0ca695,Petr Yan,Marcus McGhee,Bantamweight,Red,0.0,0.0,22.0,43.0,22.0,55.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/28d8638ea0a71908,http://ufcstats.com/fight-details/582d66ce97309e29,Shara Magomedov,Marc-Andre Barriault,Middleweight,Red,0.0,0.0,22.0,36.0,5.0,17.0,0.0,0.0,1.0,2.0
+http://ufcstats.com/event-details/28d8638ea0a71908,http://ufcstats.com/fight-details/887c61da1a78a5e1,Asu Almabayev,Jose Ochoa,Flyweight,Red,0.0,0.0,5.0,10.0,10.0,18.0,3.0,6.0,1.0,1.0
+http://ufcstats.com/event-details/28d8638ea0a71908,http://ufcstats.com/fight-details/77f960d82cda0b76,Bogdan Guskov,Nikita Krylov,Light Heavyweight,Blue,0.0,1.0,16.0,34.0,23.0,43.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/28d8638ea0a71908,http://ufcstats.com/fight-details/e72c691b7c68b03a,Bryce Mitchell,Said Nurmagomedov,Bantamweight,Red,0.0,1.0,10.0,14.0,17.0,25.0,0.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/28d8638ea0a71908,http://ufcstats.com/fight-details/7c075e3383198e14,Muslim Salikhov,Carlos Leal,Welterweight,Red,1.0,0.0,3.0,9.0,5.0,9.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/28d8638ea0a71908,http://ufcstats.com/fight-details/017a825c7820d12e,Davey Grant,Da'Mon Blackshear,Bantamweight,Red,0.0,0.0,3.0,5.0,2.0,4.0,0.0,0.0,1.0,1.0
+http://ufcstats.com/event-details/28d8638ea0a71908,http://ufcstats.com/fight-details/3e6067763978d862,Tabatha Ricci,Amanda Ribas,Women's Strawweight,Blue,0.0,0.0,22.0,47.0,14.0,42.0,1.0,3.0,0.0,2.0
+http://ufcstats.com/event-details/28d8638ea0a71908,http://ufcstats.com/fight-details/f9dac7702609669f,Billy Elekana,Ibo Aslan,Light Heavyweight,Blue,0.0,0.0,8.0,19.0,10.0,16.0,0.0,0.0,0.0,1.0
+http://ufcstats.com/event-details/28d8638ea0a71908,http://ufcstats.com/fight-details/23ddf51ce630028d,Steven Nguyen,Mohammad Yahya,Featherweight,Blue,0.0,5.0,33.0,86.0,59.0,112.0,0.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/28d8638ea0a71908,http://ufcstats.com/fight-details/0a598768f5c8d540,Martin Buday,Marcus Buchecha,Heavyweight,Red,0.0,0.0,19.0,44.0,19.0,42.0,0.0,0.0,0.0,6.0
+http://ufcstats.com/event-details/b8e2f10efb6eca85,http://ufcstats.com/fight-details/d7507e2741fd4d05,Max Holloway,Dustin Poirier,Lightweight,Red,1.0,0.0,26.0,64.0,16.0,32.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/b8e2f10efb6eca85,http://ufcstats.com/fight-details/23c963be9de38205,Paulo Costa,Roman Kopylov,Middleweight,Red,1.0,0.0,34.0,54.0,11.0,27.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/b8e2f10efb6eca85,http://ufcstats.com/fight-details/5dde61734080ac4a,Daniel Rodriguez,Kevin Holland,Welterweight,Blue,0.0,0.0,40.0,83.0,29.0,60.0,0.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/b8e2f10efb6eca85,http://ufcstats.com/fight-details/acc961fd5cf5c62e,Patricio Freire,Dan Ige,Featherweight,Blue,0.0,0.0,6.0,28.0,7.0,13.0,0.0,0.0,2.0,3.0
+http://ufcstats.com/event-details/b8e2f10efb6eca85,http://ufcstats.com/fight-details/a95b03e9b5a91e47,Michael Johnson,Daniel Zellhuber,Lightweight,Red,0.0,0.0,24.0,56.0,12.0,46.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/b8e2f10efb6eca85,http://ufcstats.com/fight-details/d2cb92fdf6a497e9,Vinicius Oliveira,Kyler Phillips,Bantamweight,Blue,0.0,0.0,29.0,67.0,22.0,69.0,0.0,1.0,0.0,1.0
+http://ufcstats.com/event-details/b8e2f10efb6eca85,http://ufcstats.com/fight-details/8e1feda9141602f1,Brendan Allen,Marvin Vettori,Middleweight,Blue,0.0,0.0,29.0,58.0,30.0,55.0,0.0,0.0,2.0,3.0
+http://ufcstats.com/event-details/b8e2f10efb6eca85,http://ufcstats.com/fight-details/df2ed8b509fbdbdc,Nikolay Veretennikov,Francisco Prado,Welterweight,Blue,0.0,0.0,7.0,9.0,17.0,28.0,1.0,1.0,0.0,2.0
+http://ufcstats.com/event-details/b8e2f10efb6eca85,http://ufcstats.com/fight-details/72e477b41f44e358,Ateba Gautier,Robert Valentin,Middleweight,Red,1.0,0.0,19.0,37.0,2.0,5.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/b8e2f10efb6eca85,http://ufcstats.com/fight-details/37bc72d5d211b189,Islam Dulatov,Adam Fugitt,Welterweight,Blue,0.0,1.0,14.0,27.0,21.0,41.0,0.0,3.0,0.0,0.0
+http://ufcstats.com/event-details/b8e2f10efb6eca85,http://ufcstats.com/fight-details/798652dbea086910,Jimmy Crute,Marcin Prachnio,Light Heavyweight,Red,0.0,0.0,5.0,18.0,21.0,36.0,3.0,6.0,0.0,0.0
+http://ufcstats.com/event-details/b8e2f10efb6eca85,http://ufcstats.com/fight-details/182ee320edb1b5ed,Ryan Spann,Lukasz Brzeski,Heavyweight,Red,0.0,0.0,8.0,19.0,5.0,8.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/b8e2f10efb6eca85,http://ufcstats.com/fight-details/74099d470e8d2765,Brunno Ferreira,Jackson McVey,Middleweight,Red,0.0,0.0,7.0,9.0,4.0,15.0,1.0,1.0,0.0,1.0
+http://ufcstats.com/event-details/b8e2f10efb6eca85,http://ufcstats.com/fight-details/a602c68147b752b2,Carli Judice,Nicolle Caliari,Women's Flyweight,Red,0.0,0.0,38.0,78.0,11.0,40.0,0.0,0.0,0.0,5.0
+http://ufcstats.com/event-details/7b03d9df5910917d,http://ufcstats.com/fight-details/0adfc21045c02555,Derrick Lewis,Tallison Teixeira,Heavyweight,Red,1.0,0.0,9.0,17.0,3.0,5.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/7b03d9df5910917d,http://ufcstats.com/fight-details/2a03bc4c491b4c9a,Gabriel Bonfim,Stephen Thompson,Welterweight,Blue,0.0,0.0,6.0,24.0,14.0,24.0,0.0,0.0,2.0,3.0
+http://ufcstats.com/event-details/7b03d9df5910917d,http://ufcstats.com/fight-details/f368475c366c6d85,Steve Garcia,Calvin Kattar,Featherweight,Blue,0.0,0.0,8.0,26.0,22.0,71.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/7b03d9df5910917d,http://ufcstats.com/fight-details/4e5d4a36eaaa3a78,Morgan Charriere,Nate Landwehr,Featherweight,Blue,0.0,0.0,18.0,46.0,27.0,43.0,0.0,0.0,2.0,5.0
+http://ufcstats.com/event-details/7b03d9df5910917d,http://ufcstats.com/fight-details/4b75d3b7738cb278,Vitor Petrino,Austen Lane,Heavyweight,Red,0.0,0.0,3.0,6.0,3.0,4.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/7b03d9df5910917d,http://ufcstats.com/fight-details/b19bf99c7eb796bc,Tuco Tokkos,Junior Tafa,Light Heavyweight,Blue,0.0,0.0,16.0,23.0,6.0,9.0,0.0,0.0,4.0,6.0
+http://ufcstats.com/event-details/7b03d9df5910917d,http://ufcstats.com/fight-details/236f811290163dca,Chris Curtis,Max Griffin,Welterweight,Blue,0.0,0.0,21.0,48.0,8.0,32.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/7b03d9df5910917d,http://ufcstats.com/fight-details/d5e3be7a07c48b08,Jake Matthews,Chidi Njokuani,Welterweight,Red,0.0,0.0,3.0,7.0,5.0,10.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/7b03d9df5910917d,http://ufcstats.com/fight-details/46bc1338a50cbeac,Eduarda Moura,Lauren Murphy,Women's Flyweight,Blue,0.0,0.0,6.0,33.0,19.0,58.0,1.0,2.0,1.0,1.0
+http://ufcstats.com/event-details/7b03d9df5910917d,http://ufcstats.com/fight-details/5c650ae2193ab1bc,Valter Walker,Kennedy Nzechukwu,Heavyweight,Blue,0.0,0.0,0.0,0.0,4.0,11.0,0.0,0.0,1.0,2.0
+http://ufcstats.com/event-details/7b03d9df5910917d,http://ufcstats.com/fight-details/7f33fbdc35afd721,Mike Davis,Mitch Ramirez,Lightweight,Blue,0.0,0.0,8.0,18.0,3.0,8.0,0.0,1.0,1.0,2.0
+http://ufcstats.com/event-details/7b03d9df5910917d,http://ufcstats.com/fight-details/120d66cb0da0f3c3,Fatima Kline,Melissa Martinez,Women's Strawweight,Red,0.0,0.0,32.0,64.0,17.0,38.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/66766984842c13dc,http://ufcstats.com/fight-details/7a64d63e12618ba7,Ilia Topuria,Charles Oliveira,Lightweight,Red,1.0,0.0,21.0,29.0,9.0,16.0,0.0,0.0,0.0,2.0
+http://ufcstats.com/event-details/66766984842c13dc,http://ufcstats.com/fight-details/8308464729ea7c40,Alexandre Pantoja,Kai Kara-France,Flyweight,Red,0.0,0.0,7.0,13.0,8.0,13.0,1.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/66766984842c13dc,http://ufcstats.com/fight-details/f722b96ae6862843,Joshua Van,Brandon Royval,Flyweight,Blue,0.0,0.0,42.0,116.0,52.0,79.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/66766984842c13dc,http://ufcstats.com/fight-details/1ea9ad3b6e1cba79,Beneil Dariush,Renato Moicano,Lightweight,Red,0.0,1.0,22.0,46.0,22.0,42.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/66766984842c13dc,http://ufcstats.com/fight-details/f6a3c78f15ff26c7,Payton Talbott,Felipe Lima,Bantamweight,Red,0.0,0.0,14.0,26.0,10.0,20.0,0.0,1.0,1.0,5.0
+http://ufcstats.com/event-details/66766984842c13dc,http://ufcstats.com/fight-details/958522de54ccc536,Gregory Rodrigues,Jack Hermansson,Middleweight,Blue,0.0,1.0,30.0,55.0,18.0,63.0,0.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/66766984842c13dc,http://ufcstats.com/fight-details/2f523b757f7f33a2,Jose Delgado,Hyder Amil,Featherweight,Blue,0.0,1.0,3.0,5.0,9.0,11.0,0.0,1.0,0.0,1.0
+http://ufcstats.com/event-details/66766984842c13dc,http://ufcstats.com/fight-details/815ff62ca8e217be,Tracy Cortez,Viviane Araujo,Women's Flyweight,Blue,0.0,0.0,5.0,13.0,15.0,20.0,0.0,0.0,1.0,2.0
+http://ufcstats.com/event-details/66766984842c13dc,http://ufcstats.com/fight-details/d7be78c400e7e0f9,Terrance McKinney,Viacheslav Borshchev,Lightweight,Red,0.0,0.0,1.0,2.0,2.0,2.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/66766984842c13dc,http://ufcstats.com/fight-details/9bff9fe298e63357,Jacobe Smith,Niko Price,Welterweight,Blue,0.0,0.0,19.0,37.0,33.0,53.0,0.0,2.0,1.0,1.0
+http://ufcstats.com/event-details/66766984842c13dc,http://ufcstats.com/fight-details/043172689e415438,Jhonata Diniz,Alvin Hines,Heavyweight,Red,0.0,0.0,32.0,55.0,25.0,82.0,0.0,0.0,1.0,2.0
+http://ufcstats.com/event-details/400c7b43c86d27d3,http://ufcstats.com/fight-details/03bc32bdb5a33496,Khalil Rountree Jr.,Jamahal Hill,Light Heavyweight,Blue,0.0,0.0,14.0,30.0,17.0,30.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/400c7b43c86d27d3,http://ufcstats.com/fight-details/a1afc16e21d1a807,Rafael Fiziev,Ignacio Bahamondes,Lightweight,Red,0.0,0.0,17.0,25.0,13.0,46.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/400c7b43c86d27d3,http://ufcstats.com/fight-details/8e5744c664fec3e9,Curtis Blaydes,Rizvan Kuniev,Heavyweight,Red,0.0,0.0,12.0,23.0,8.0,22.0,2.0,9.0,0.0,0.0
+http://ufcstats.com/event-details/400c7b43c86d27d3,http://ufcstats.com/fight-details/36ec204f47e4d613,Myktybek Orolbai,Tofiq Musayev,Catch Weight,Blue,0.0,0.0,2.0,6.0,2.0,7.0,0.0,0.0,3.0,5.0
+http://ufcstats.com/event-details/400c7b43c86d27d3,http://ufcstats.com/fight-details/7513a00037094075,Nazim Sadykhov,Nikolas Motta,Lightweight,Red,0.0,1.0,39.0,63.0,36.0,82.0,0.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/400c7b43c86d27d3,http://ufcstats.com/fight-details/19764211af05674c,Muhammad Naimov,Bogdan Grad,Featherweight,Red,0.0,0.0,10.0,22.0,15.0,30.0,0.0,1.0,1.0,3.0
+http://ufcstats.com/event-details/400c7b43c86d27d3,http://ufcstats.com/fight-details/e512b80bbaea36c2,Seokhyeon Ko,Oban Elliott,Welterweight,Red,0.0,0.0,8.0,20.0,4.0,11.0,2.0,5.0,0.0,1.0
+http://ufcstats.com/event-details/400c7b43c86d27d3,http://ufcstats.com/fight-details/5fcf18bcd2a020f1,JunYong Park,Ismail Naurdiev,Middleweight,Blue,0.0,0.0,52.0,105.0,26.0,77.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/400c7b43c86d27d3,http://ufcstats.com/fight-details/fff3218758c513b8,Daria Zhelezniakova,Melissa Mullins,Women's Bantamweight,Red,0.0,0.0,44.0,95.0,26.0,68.0,0.0,0.0,1.0,2.0
+http://ufcstats.com/event-details/400c7b43c86d27d3,http://ufcstats.com/fight-details/2bfc0212f2cae65b,Klaudia Sygula,Irina Alekseeva,Women's Bantamweight,Blue,0.0,0.0,35.0,92.0,53.0,85.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/400c7b43c86d27d3,http://ufcstats.com/fight-details/8c140756bf43dcc2,Tagir Ulanbekov,Azat Maksum,Flyweight,Red,0.0,0.0,19.0,37.0,18.0,47.0,0.0,4.0,0.0,0.0
+http://ufcstats.com/event-details/400c7b43c86d27d3,http://ufcstats.com/fight-details/a12d3a6c8aaf87ca,Mohammed Usman,Hamdy Abdelwahab,Heavyweight,Blue,0.0,0.0,16.0,32.0,9.0,46.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/de277a4abcfeea46,http://ufcstats.com/fight-details/d75b3d3c2b209b75,Kamaru Usman,Joaquin Buckley,Welterweight,Red,0.0,0.0,7.0,11.0,0.0,4.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/de277a4abcfeea46,http://ufcstats.com/fight-details/79dfbbdd14fbbd11,Rose Namajunas,Miranda Maverick,Women's Flyweight,Red,0.0,0.0,17.0,59.0,20.0,58.0,0.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/de277a4abcfeea46,http://ufcstats.com/fight-details/e5bd7e6e2a50a843,Edmen Shahbazyan,Andre Petroski,Middleweight,Red,0.0,0.0,15.0,41.0,13.0,27.0,0.0,1.0,0.0,3.0
+http://ufcstats.com/event-details/de277a4abcfeea46,http://ufcstats.com/fight-details/1714950933f88ab9,Raoni Barcelos,Cody Garbrandt,Bantamweight,Blue,0.0,0.0,10.0,44.0,6.0,19.0,0.0,1.0,1.0,5.0
+http://ufcstats.com/event-details/de277a4abcfeea46,http://ufcstats.com/fight-details/08c04f18b0f58d71,Mansur Abdul-Malik,Cody Brundage,Middleweight,,0.0,0.0,4.0,15.0,11.0,21.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/de277a4abcfeea46,http://ufcstats.com/fight-details/ec2034b134ae71cd,Alonzo Menifield,Oumar Sy,Light Heavyweight,Red,0.0,0.0,8.0,34.0,16.0,41.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/de277a4abcfeea46,http://ufcstats.com/fight-details/13e2ff8b3a122094,Paul Craig,Rodolfo Bellato,Light Heavyweight,,0.0,0.0,17.0,27.0,10.0,20.0,0.0,6.0,1.0,1.0
+http://ufcstats.com/event-details/de277a4abcfeea46,http://ufcstats.com/fight-details/e861e9cc0118c670,Michael Chiesa,Court McGee,Welterweight,Red,0.0,0.0,15.0,45.0,10.0,41.0,0.0,0.0,0.0,1.0
+http://ufcstats.com/event-details/de277a4abcfeea46,http://ufcstats.com/fight-details/f6454f2e508626ec,Malcolm Wellmaker,Kris Moutinho,Bantamweight,Red,1.0,0.0,25.0,39.0,6.0,27.0,0.0,0.0,0.0,1.0
+http://ufcstats.com/event-details/de277a4abcfeea46,http://ufcstats.com/fight-details/b39b8ff0d7de211a,Jose Ochoa,Cody Durden,Flyweight,,,,,,,,,,,
+http://ufcstats.com/event-details/de277a4abcfeea46,http://ufcstats.com/fight-details/59c4fdb3c0673066,Ricky Simon,Cameron Smotherman,Bantamweight,Red,0.0,0.0,7.0,13.0,1.0,6.0,1.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/de277a4abcfeea46,http://ufcstats.com/fight-details/2ae7404681deb3b3,Phil Rowe,Ange Loosa,Welterweight,Red,0.0,0.0,2.0,3.0,15.0,23.0,0.0,0.0,1.0,2.0
+http://ufcstats.com/event-details/de277a4abcfeea46,http://ufcstats.com/fight-details/ab325ea526824723,Jamey-Lyn Horth,Vanessa Demopoulos,Women's Flyweight,Red,0.0,0.0,35.0,57.0,5.0,39.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/18c49685296c60e6,http://ufcstats.com/fight-details/e61d83e4e1f9c4d7,Merab Dvalishvili,Sean O'Malley,Bantamweight,Red,0.0,0.0,17.0,37.0,12.0,23.0,2.0,4.0,0.0,0.0
+http://ufcstats.com/event-details/18c49685296c60e6,http://ufcstats.com/fight-details/81b84b34f0357fa5,Kayla Harrison,Julianna Pena,Women's Bantamweight,Blue,0.0,0.0,6.0,17.0,8.0,24.0,0.0,0.0,1.0,2.0
+http://ufcstats.com/event-details/18c49685296c60e6,http://ufcstats.com/fight-details/e28e829800466aca,Joe Pyfer,Kelvin Gastelum,Middleweight,Blue,0.0,2.0,8.0,20.0,21.0,39.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/18c49685296c60e6,http://ufcstats.com/fight-details/df5dac45fc585fb0,Mario Bautista,Patchy Mix,Bantamweight,Red,0.0,0.0,43.0,91.0,36.0,74.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/18c49685296c60e6,http://ufcstats.com/fight-details/2129acab2280bd29,Kevin Holland,Vicente Luque,Welterweight,Blue,0.0,0.0,22.0,40.0,35.0,64.0,0.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/18c49685296c60e6,http://ufcstats.com/fight-details/b6a87389bdc36a00,Joshua Van,Bruno Silva,Flyweight,Blue,0.0,1.0,22.0,40.0,28.0,55.0,0.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/18c49685296c60e6,http://ufcstats.com/fight-details/01100a90b584215d,Azamat Murzakanov,Brendson Ribeiro,Light Heavyweight,Red,1.0,0.0,27.0,36.0,8.0,22.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/18c49685296c60e6,http://ufcstats.com/fight-details/ac977a0389682124,Waldo Cortes Acosta,Serghei Spivac,Heavyweight,Blue,0.0,0.0,14.0,36.0,27.0,59.0,1.0,3.0,0.0,0.0
+http://ufcstats.com/event-details/18c49685296c60e6,http://ufcstats.com/fight-details/f0488a4486a64af0,Andreas Gustafsson,Khaos Williams,Welterweight,Blue,0.0,0.0,21.0,40.0,30.0,44.0,0.0,0.0,0.0,2.0
+http://ufcstats.com/event-details/18c49685296c60e6,http://ufcstats.com/fight-details/d078e9046aa86307,Wang Cong,Ariane da Silva,Women's Flyweight,Blue,0.0,0.0,17.0,41.0,46.0,65.0,0.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/18c49685296c60e6,http://ufcstats.com/fight-details/9f4a0de31375ba04,JooSang Yoo,Jeka Saragih,Featherweight,Blue,0.0,1.0,2.0,4.0,6.0,8.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/18c49685296c60e6,http://ufcstats.com/fight-details/2e4064e0e6d4d92e,Quillan Salkilld,Yanal Ashmouz,Lightweight,Red,0.0,0.0,19.0,27.0,14.0,25.0,4.0,9.0,0.0,4.0
+http://ufcstats.com/event-details/18c49685296c60e6,http://ufcstats.com/fight-details/0e8599eca8ccfa32,MarQuel Mederos,Mark Choinski,Lightweight,Red,0.0,0.0,31.0,46.0,14.0,36.0,0.0,0.0,0.0,3.0
+http://ufcstats.com/event-details/2a898bf9fb7710b3,http://ufcstats.com/fight-details/212527d462690304,Mateusz Gamrot,Ludovit Klein,Lightweight,Red,0.0,0.0,10.0,19.0,2.0,14.0,4.0,7.0,0.0,0.0
+http://ufcstats.com/event-details/2a898bf9fb7710b3,http://ufcstats.com/fight-details/305d8c85b35a7d4e,Ramiz Brahimaj,Billy Ray Goff,Welterweight,Blue,0.0,0.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,3.0
+http://ufcstats.com/event-details/2a898bf9fb7710b3,http://ufcstats.com/fight-details/7aaa810540132a4b,Dustin Jacoby,Bruno Lopes,Light Heavyweight,Red,1.0,0.0,17.0,29.0,3.0,9.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/2a898bf9fb7710b3,http://ufcstats.com/fight-details/106918bfbe24335d,Ketlen Vieira,Macy Chiasson,Women's Featherweight,Red,0.0,0.0,18.0,48.0,17.0,31.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/2a898bf9fb7710b3,http://ufcstats.com/fight-details/ad68450307a21ab1,Zach Reese,Dusko Todorovic,Middleweight,Red,0.0,0.0,6.0,11.0,10.0,15.0,2.0,2.0,3.0,4.0
+http://ufcstats.com/event-details/2a898bf9fb7710b3,http://ufcstats.com/fight-details/baa2ee0bf7f97079,Allan Nascimento,Jafel Filho,Flyweight,Blue,0.0,0.0,11.0,20.0,4.0,9.0,2.0,4.0,0.0,3.0
+http://ufcstats.com/event-details/2a898bf9fb7710b3,http://ufcstats.com/fight-details/2521fed000747f47,Jordan Leavitt,Kurt Holobaugh,Lightweight,Blue,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,3.0,4.0
+http://ufcstats.com/event-details/2a898bf9fb7710b3,http://ufcstats.com/fight-details/ae89ba793121fe0c,Bolaji Oki,Michael Aswell Jr.,Lightweight,Red,0.0,0.0,36.0,92.0,24.0,84.0,0.0,0.0,0.0,0.0
+http://ufcstats.com/event-details/2a898bf9fb7710b3,http://ufcstats.com/fight-details/73240bea13ed5e71,Alice Ardelean,Rayanne dos Santos,Women's Strawweight,Blue,0.0,0.0,23.0,45.0,26.0,86.0,0.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/8ad022dd81224f61,http://ufcstats.com/fight-details/a81ad236a2f221f2,Michael Morales,Gilbert Burns,Welterweight,Blue,0.0,2.0,5.0,18.0,33.0,56.0,1.0,2.0,0.0,0.0
+http://ufcstats.com/event-details/8ad022dd81224f61,http://ufcstats.com/fight-details/dcb27eef6441268c,Mairon Santos,Sodiq Yusuff,Lightweight,Blue,0.0,0.0,19.0,30.0,9.0,27.0,0.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/8ad022dd81224f61,http://ufcstats.com/fight-details/b3044bf646306e7f,Nursulton Ruziboev,Dustin Stoltzfus,Middleweight,Blue,0.0,0.0,5.0,13.0,13.0,27.0,0.0,1.0,1.0,1.0
+http://ufcstats.com/event-details/8ad022dd81224f61,http://ufcstats.com/fight-details/fe2acfdaaaec3dba,Melquizael Costa,Julian Erosa,Featherweight,Blue,0.0,0.0,10.0,26.0,32.0,75.0,1.0,3.0,0.0,0.0
+http://ufcstats.com/event-details/8ad022dd81224f61,http://ufcstats.com/fight-details/a9a6cca4bbf7a5db,Gabe Green,Matheus Camilo,Lightweight,Red,0.0,0.0,7.0,18.0,12.0,24.0,0.0,0.0,1.0,2.0
+http://ufcstats.com/event-details/8ad022dd81224f61,http://ufcstats.com/fight-details/8ba31cf0b3164b72,Jared Gordon,Thiago Moises,Lightweight,Red,1.0,0.0,7.0,13.0,5.0,9.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/8ad022dd81224f61,http://ufcstats.com/fight-details/d6e2bc6e6c0cc4fe,Yadier del Valle,Connor Matthews,Featherweight,Red,0.0,0.0,9.0,12.0,3.0,10.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/8ad022dd81224f61,http://ufcstats.com/fight-details/f75fe8b384b0db11,Luana Santos,Tainara Lisboa,Women's Bantamweight,Red,0.0,0.0,9.0,11.0,5.0,19.0,1.0,1.0,0.0,1.0
+http://ufcstats.com/event-details/8ad022dd81224f61,http://ufcstats.com/fight-details/66887532be2de5ee,Denise Gomes,Elise Reed,Women's Strawweight,Blue,0.0,0.0,9.0,17.0,15.0,22.0,0.0,0.0,3.0,3.0
+http://ufcstats.com/event-details/8ad022dd81224f61,http://ufcstats.com/fight-details/18a7dc86279066f8,HyunSung Park,Carlos Hernandez,Flyweight,Red,0.0,0.0,14.0,22.0,4.0,17.0,1.0,1.0,0.0,0.0
+http://ufcstats.com/event-details/8ad022dd81224f61,http://ufcstats.com/fight-details/afdd95ae7b7cdb0c,Tecia Pennington,Luana Pinheiro,Women's Strawweight,Red,0.0,0.0,26.0,61.0,16.0,51.0,0.0,0.0,0.0,2.0
