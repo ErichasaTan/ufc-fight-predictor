@@ -2,7 +2,7 @@
 
 import time
 from pathlib import Path
-
+import re
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -215,6 +215,230 @@ def parse_made_of(value: str):
         return made, attempted
     except ValueError:
         return None, None
+
+
+def parse_height_to_inches(text: str):
+    """
+    Convert height like "5' 11\"" or "5'11\"" into inches (float).
+    Returns None if parsing fails or text is missing.
+    """
+    if not isinstance(text, str):
+        return None
+    text = text.strip()
+    if text in ("--", ""):
+        return None
+
+    # Look for feet' inches"
+    m = re.match(r"(\d+)\s*'\s*(\d+)\s*\"", text)
+    if not m:
+        # Try without the closing quote
+        m = re.match(r"(\d+)\s*'\s*(\d+)", text)
+    if not m:
+        return None
+
+    feet = int(m.group(1))
+    inches = int(m.group(2))
+    return feet * 12 + inches
+
+
+def parse_reach_to_inches(text: str):
+    """
+    Convert reach like '72"' or '72.0"' into inches (float).
+    Returns None if parsing fails.
+    """
+    if not isinstance(text, str):
+        return None
+    text = text.strip()
+    if text in ("--", ""):
+        return None
+
+    # Strip the trailing quote
+    text = text.replace('"', "")
+    try:
+        return float(text)
+    except ValueError:
+        return None
+
+
+def parse_float_stat(text: str):
+    """
+    Parse a generic numeric stat from text like '4.22', '52%', '--'.
+    Strips '%' and returns float or None.
+    """
+    if not isinstance(text, str):
+        return None
+    text = text.strip()
+    if text in ("--", ""):
+        return None
+
+    text = text.replace("%", "").strip()
+    try:
+        return float(text)
+    except ValueError:
+        return None
+
+
+def scrape_fighter_profile(fighter_url: str) -> dict:
+    """
+    Scrape a single fighter's profile page on UFCStats.
+
+    Returns a dict with fields like:
+    - fighter_url
+    - fighter_name
+    - height_in
+    - reach_in
+    - stance
+    - dob
+    - slpm
+    - sapm
+    - str_acc
+    - str_def
+    - td_avg
+    - td_acc
+    - td_def
+    - sub_avg
+    """
+    try:
+        soup = fetch_page(fighter_url)
+    except Exception as e:
+        print(f"Error fetching fighter page {fighter_url}: {e}")
+        return {
+            "fighter_url": fighter_url,
+            "fighter_name": None,
+            "height_in": None,
+            "reach_in": None,
+            "stance": None,
+            "dob": None,
+            "slpm": None,
+            "sapm": None,
+            "str_acc": None,
+            "str_def": None,
+            "td_avg": None,
+            "td_acc": None,
+            "td_def": None,
+            "sub_avg": None,
+        }
+
+    # Initialize result
+    result = {
+        "fighter_url": fighter_url,
+        "fighter_name": None,
+        "height_in": None,
+        "reach_in": None,
+        "stance": None,
+        "dob": None,
+        "slpm": None,
+        "sapm": None,
+        "str_acc": None,
+        "str_def": None,
+        "td_avg": None,
+        "td_acc": None,
+        "td_def": None,
+        "sub_avg": None,
+    }
+
+    # 1) Fighter name (usually at the top)
+    name_tag = soup.find("span", class_="b-content__title-highlight")
+    if name_tag:
+        result["fighter_name"] = name_tag.get_text(strip=True)
+
+    # 2) Info boxes (height, reach, stance, DOB, etc.)
+    info_boxes = soup.find_all("div", class_="b-list__info-box")
+    for box in info_boxes:
+        for li in box.find_all("li", class_="b-list__box-list-item"):
+            text = " ".join(li.get_text(" ", strip=True).split())
+            # Example text patterns:
+            # "Height: 5' 11\""
+            # "Reach: 72\""
+            # "STANCE: Orthodox"
+            # "DOB: 1995-02-10"
+            if ":" not in text:
+                continue
+            label, value = [part.strip() for part in text.split(":", 1)]
+            label_upper = label.upper()
+
+            if label_upper == "HEIGHT":
+                result["height_in"] = parse_height_to_inches(value)
+            elif label_upper == "REACH":
+                result["reach_in"] = parse_reach_to_inches(value)
+            elif label_upper == "STANCE":
+                result["stance"] = value if value not in ("--", "") else None
+            elif label_upper == "DOB":
+                result["dob"] = value if value not in ("--", "") else None
+
+    # 3) Career stats (SLpM, SApM, STR. ACC, STR. DEF, TD AVG, TD ACC, TD DEF, SUB. AVG)
+    # These are usually in some stats box; we just scan all list items and match labels.
+    stats_labels_map = {
+        "SLPM": "slpm",
+        "SAPM": "sapm",
+        "STR. ACC.": "str_acc",
+        "STR. DEF.": "str_def",
+        "TD AVG.": "td_avg",
+        "TD ACC.": "td_acc",
+        "TD DEF.": "td_def",
+        "SUB. AVG.": "sub_avg",
+    }
+
+    for box in info_boxes:
+        for li in box.find_all("li", class_="b-list__box-list-item"):
+            text = " ".join(li.get_text(" ", strip=True).split())
+            if ":" not in text:
+                continue
+            label, value = [part.strip() for part in text.split(":", 1)]
+            label_upper = label.upper()
+
+            for key, field_name in stats_labels_map.items():
+                if key in label_upper:
+                    result[field_name] = parse_float_stat(value)
+
+    return result
+
+
+def scrape_all_fighter_profiles(limit: int = None):
+    """
+    Loop over fighters_index.csv and scrape profiles for each fighter.
+    Saves results to data/raw/fighter_profiles_raw.csv
+
+    limit: if provided, only scrape the first N fighters (useful for testing).
+    """
+    fighters_csv = DATA_DIR / "fighters_index.csv"
+    if not fighters_csv.exists():
+        print(f"No fighters_index.csv found at {fighters_csv}. Run build_fighter_index_from_fights() first.")
+        return
+
+    fighters_df = pd.read_csv(fighters_csv)
+    print(f"Loaded {len(fighters_df)} fighters from {fighters_csv}")
+
+    if limit is not None:
+        fighters_df = fighters_df.head(limit)
+        print(f"Limiting to first {limit} fighters for this run")
+
+    profiles = []
+
+    for _, row in tqdm(fighters_df.iterrows(), total=len(fighters_df), desc="Scraping fighter profiles"):
+        f_name = row["fighter_name"]
+        f_url = row["fighter_url"]
+
+        profile = scrape_fighter_profile(f_url)
+
+        # Make sure we keep the name from the index as well
+        profile["fighter_name_index"] = f_name
+
+        profiles.append(profile)
+
+        # Be polite to the site
+        time.sleep(0.4)
+
+    if not profiles:
+        print("No fighter profiles scraped.")
+        return
+
+    profiles_df = pd.DataFrame(profiles)
+
+    out_path = DATA_DIR / "fighter_profiles_raw.csv"
+    profiles_df.to_csv(out_path, index=False)
+
+    print(f"Saved {len(profiles_df)} fighter profiles to {out_path}")
 
 
 def scrape_fight_details(fight_url: str) -> dict:
@@ -440,7 +664,116 @@ def scrape_fight_details(fight_url: str) -> dict:
     return result
 
 
+def extract_fighter_urls_from_fight(fight_url: str) -> dict:
+    """
+    Given a fight_details URL, return the fighter names + profile URLs.
+
+    Returns a dict like:
+    {
+        "fight_url": ...,
+        "red_fighter_name": ...,
+        "red_fighter_url": ...,
+        "blue_fighter_name": ...,
+        "blue_fighter_url": ...
+    }
+    """
+    try:
+        soup = fetch_page(fight_url)
+    except Exception as e:
+        print(f"Error fetching fight page for fighter URLs ({fight_url}): {e}")
+        return {
+            "fight_url": fight_url,
+            "red_fighter_name": None,
+            "red_fighter_url": None,
+            "blue_fighter_name": None,
+            "blue_fighter_url": None,
+        }
+
+    # On the fight details page, fighters appear in "b-fight-details__person" blocks
+    fighter_blocks = soup.find_all("div", class_="b-fight-details__person")
+
+    red_name = blue_name = red_url = blue_url = None
+
+    if len(fighter_blocks) >= 2:
+        # Red corner
+        red_block = fighter_blocks[0]
+        red_name_tag = red_block.find("a", class_="b-link")
+        if red_name_tag:
+            red_name = red_name_tag.get_text(strip=True)
+            red_url = red_name_tag.get("href")
+
+        # Blue corner
+        blue_block = fighter_blocks[1]
+        blue_name_tag = blue_block.find("a", class_="b-link")
+        if blue_name_tag:
+            blue_name = blue_name_tag.get_text(strip=True)
+            blue_url = blue_name_tag.get("href")
+
+    return {
+        "fight_url": fight_url,
+        "red_fighter_name": red_name,
+        "red_fighter_url": red_url,
+        "blue_fighter_name": blue_name,
+        "blue_fighter_url": blue_url,
+    }
+
+def build_fighter_index_from_fights():
+    """
+    Reads ufc_fights_raw.csv and builds an index of unique fighters
+    with their UFCStats profile URLs. Saves to data/raw/fighters_index.csv
+    """
+    fights_csv = DATA_DIR / "ufc_fights_raw.csv"
+    if not fights_csv.exists():
+        print(f"Could not find {fights_csv}. Run scrape_all() first.")
+        return
+
+    print(f"Loading fights from {fights_csv}...")
+    fights_df = pd.read_csv(fights_csv)
+
+    unique_fight_urls = fights_df["fight_url"].dropna().unique()
+    print(f"Found {len(unique_fight_urls)} unique fight URLs.")
+
+    fighter_rows = []
+
+    for fight_url in tqdm(unique_fight_urls, desc="Fights (for fighter index)"):
+        info = extract_fighter_urls_from_fight(fight_url)
+
+        # Red fighter
+        if info.get("red_fighter_url"):
+            fighter_rows.append({
+                "fighter_name": info.get("red_fighter_name"),
+                "fighter_url": info.get("red_fighter_url"),
+            })
+
+        # Blue fighter
+        if info.get("blue_fighter_url"):
+            fighter_rows.append({
+                "fighter_name": info.get("blue_fighter_name"),
+                "fighter_url": info.get("blue_fighter_url"),
+            })
+
+        # Be polite to the site
+        time.sleep(0.3)
+
+    if not fighter_rows:
+        print("No fighter rows collected.")
+        return
+
+    fighters_df = pd.DataFrame(fighter_rows)
+
+    # Drop duplicates by fighter_url, keep first name we saw
+    fighters_df = fighters_df.dropna(subset=["fighter_url"]).drop_duplicates("fighter_url")
+
+    out_path = DATA_DIR / "fighters_index.csv"
+    fighters_df.to_csv(out_path, index=False)
+
+    print(f"Saved {len(fighters_df)} unique fighters to {out_path}")
+
+
 if __name__ == "__main__":
-    scrape_all()
+    scrape_all_fighter_profiles(limit=None)
+
+
+
 
 
