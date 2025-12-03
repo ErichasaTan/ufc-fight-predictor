@@ -26,67 +26,90 @@ HEADERS = {
 }
 
 
-def fetch_page(url: str) -> BeautifulSoup:
-    """Fetch a page and return a BeautifulSoup object."""
-    resp = requests.get(url, headers=HEADERS, timeout=10)
-    resp.raise_for_status()
-    return BeautifulSoup(resp.text, "html.parser")
+def fetch_page(url: str, retries: int = 3, sleep_seconds: float = 3.0) -> BeautifulSoup:
+    """
+    Fetch a page and return a BeautifulSoup object.
+    Retries a few times on network errors / timeouts.
+    """
+    last_err = None
+    for attempt in range(1, retries + 1):
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=20)  # bump timeout to 20s
+            resp.raise_for_status()
+            return BeautifulSoup(resp.text, "html.parser")
+        except requests.RequestException as e:
+            last_err = e
+            print(f"[fetch_page] Error fetching {url} (attempt {attempt}/{retries}): {e}")
+            time.sleep(sleep_seconds)
+
+    # If we get here, all retries failed
+    raise RuntimeError(f"Failed to fetch {url} after {retries} attempts. Last error: {last_err}")
 
 
-def scrape_all():
-    print("Starting UFCStats scraping...")
+def scrape_all(max_pages: int = 30):
+    """
+    Scrape UFCStats events and fights and save to data/raw/ufc_fights_raw.csv
+    """
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-    # 1. Get all event URLs (start small!)
-    event_urls = scrape_event_urls(max_pages=1)  # later: increase to 10, 20, etc.
+    # 1) Get events
+    event_urls = scrape_event_urls(max_pages=max_pages)
+    print(f"Total unique event URLs collected: {len(event_urls)}")
 
+    # 2) For each event, collect fights and details
     all_fights = []
 
-    for event_url in tqdm(event_urls, desc="Events"):
-        fights_basic = scrape_fights_for_event(event_url)
-        print(f"  {len(fights_basic)} fights found for event")
+    for event_url in event_urls:
+        # Use the more robust fight scraper
+        fights = scrape_fights_for_event(event_url)
+        print(f"  Found {len(fights)} fights for event {event_url}")
 
-        for fight in tqdm(fights_basic, desc="  Fights", leave=False):
-            fight_url = fight["fight_url"]
-            # 2. Scrape detailed stats for this fight
-            details = scrape_fight_details(fight_url)
+        for fight in fights:
+            details = scrape_fight_details(fight["fight_url"])
 
-            # Merge dictionaries: basic info + details
-            combined = {**fight, **details}
-            all_fights.append(combined)
+            merged = {
+                "event_url": event_url,  # this will just match what's already in fight["event_url"]
+                **fight,
+                **details,
+            }
+            all_fights.append(merged)
 
-            # Be polite: small delay
-            time.sleep(0.3)
+        time.sleep(0.5)  # be polite to the site
 
-        # Slight pause between events
-        time.sleep(1.0)
+    if not all_fights:
+        print("No fights scraped.")
+        return
 
-    # 3. Convert to DataFrame and save
     df = pd.DataFrame(all_fights)
     out_path = DATA_DIR / "ufc_fights_raw.csv"
     df.to_csv(out_path, index=False)
+
     print(f"Saved {len(df)} fights to {out_path}")
 
 
 def build_events_page_url(page: int) -> str:
     """
-    UFCStats completed events are paginated.
-    Page 0 is usually the first page without ?page=,
-    later pages use ?page=1, ?page=2, etc.
+    Build the URL for the completed events page.
 
-    This helper handles both cases.
+    page = 0  -> latest events (default view)
+    page = 1  -> 'all' events on one page
+    For page > 1, we just keep returning 'all' as well.
     """
     if page == 0:
-        return EVENTS_COMPLETED_URL
-    return f"{EVENTS_COMPLETED_URL}?page={page}"
+        return EVENTS_COMPLETED_URL  # latest events
+    else:
+        # one big page with the full event history
+        return f"{EVENTS_COMPLETED_URL}?page=all"
 
-def scrape_event_urls(max_pages: int = 3) -> List[str]:
+
+def scrape_event_urls(max_pages: int = 2) -> List[str]:
     """
     Scrape UFCStats completed event pages and collect event-detail URLs.
 
     max_pages: how many pages of completed events to scrape.
                Start small (2–3) while testing.
     """
-    all_event_urls: list[str] = []
+    all_event_urls: List[str] = []
     seen: set[str] = set()
 
     for page in range(max_pages):
@@ -142,6 +165,15 @@ def scrape_fights_for_event(event_url: str):
     except Exception as e:
         print(f"  Error fetching event page {event_url}: {e}")
         return []
+    
+    # Extract event date (found in the page header)
+    event_date = None
+    date_tag = soup.find("li", class_="b-list__box-list-item")
+    if date_tag:
+        text = date_tag.get_text(" ", strip=True)
+        # Example: "Date: March 2, 2024"
+        if "Date:" in text:
+            event_date = text.split("Date:", 1)[1].strip()
 
     fights = []
 
@@ -194,6 +226,7 @@ def scrape_fights_for_event(event_url: str):
             "red_fighter": red_fighter,
             "blue_fighter": blue_fighter,
             "weight_class": weight_class,
+            "event_date": event_date,
         })
 
     return fights
@@ -444,116 +477,6 @@ def scrape_all_fighter_profiles(limit: int = None):
 def scrape_fight_details(fight_url: str) -> dict:
     """
     Scrape detailed stats for a single fight.
-
-    Returns a dict with stats for red and blue fighters.
-    Some keys may be None if parsing fails.
-    """
-    try:
-        soup = fetch_page(fight_url)
-    except Exception as e:
-        print(f"    Error fetching fight page {fight_url}: {e}")
-        return {}
-
-    result = {
-        "fight_url": fight_url,
-        "winner": None,
-        "red_kd": None,
-        "blue_kd": None,
-        "red_sig_str_landed": None,
-        "red_sig_str_attempted": None,
-        "blue_sig_str_landed": None,
-        "blue_sig_str_attempted": None,
-        "red_td_landed": None,
-        "red_td_attempted": None,
-        "blue_td_landed": None,
-        "blue_td_attempted": None,
-    }
-
-    # 1) Determine winner ("Red", "Blue") from fighter blocks
-    fighter_blocks = soup.find_all("div", class_="b-fight-details__person")
-    if len(fighter_blocks) >= 2:
-        red_block = fighter_blocks[0]
-        blue_block = fighter_blocks[1]
-
-        red_status = red_block.find("i", class_="b-fight-details__person-status")
-        blue_status = blue_block.find("i", class_="b-fight-details__person-status")
-
-        red_text = red_status.get_text(strip=True) if red_status else ""
-        blue_text = blue_status.get_text(strip=True) if blue_status else ""
-
-        if "W" in red_text:
-            result["winner"] = "Red"
-        elif "W" in blue_text:
-            result["winner"] = "Blue"
-
-    # 2) Find the "Fight Totals" table
-    totals_table = None
-    for table in soup.find_all("table", class_="b-fight-details__table"):
-        thead = table.find("thead")
-        if not thead:
-            continue
-        header_text = thead.get_text(" ", strip=True).upper()
-        # Heuristic: header contains KD and SIG. STR for the totals table
-        if "KD" in header_text and "SIG. STR" in header_text:
-            totals_table = table
-            break
-
-    if not totals_table:
-        return result
-
-    tbody = totals_table.find("tbody")
-    if not tbody:
-        return result
-
-    # The snippet you sent shows ONE row with both fighters' stats in <p> tags
-    row = tbody.find("tr", class_="b-fight-details__table-row")
-    if not row:
-        return result
-
-    cells = row.find_all("td", class_="b-fight-details__table-col")
-    # Expecting: [fighters, KD, SIG STR, SIG STR %, TOTAL STR, TD, TD %, SUB, REV, CTRL]
-    if len(cells) < 6:
-        return result
-
-    # KD column (index 1) → two <p>: red, blue
-    kd_ps = cells[1].find_all("p")
-    if len(kd_ps) >= 2:
-        try:
-            result["red_kd"] = int(kd_ps[0].get_text(strip=True) or 0)
-            result["blue_kd"] = int(kd_ps[1].get_text(strip=True) or 0)
-        except ValueError:
-            pass
-
-    # SIG STR column (index 2) → "X of Y" for red/blue
-    sig_ps = cells[2].find_all("p")
-    if len(sig_ps) >= 2:
-        red_sig = sig_ps[0].get_text(strip=True)
-        blue_sig = sig_ps[1].get_text(strip=True)
-        rs_made, rs_att = parse_made_of(red_sig)
-        bs_made, bs_att = parse_made_of(blue_sig)
-        result["red_sig_str_landed"] = rs_made
-        result["red_sig_str_attempted"] = rs_att
-        result["blue_sig_str_landed"] = bs_made
-        result["blue_sig_str_attempted"] = bs_att
-
-    # TD column (index 5) → "A of B" for red/blue
-    td_ps = cells[5].find_all("p")
-    if len(td_ps) >= 2:
-        red_td = td_ps[0].get_text(strip=True)
-        blue_td = td_ps[1].get_text(strip=True)
-        rt_made, rt_att = parse_made_of(red_td)
-        bt_made, bt_att = parse_made_of(blue_td)
-        result["red_td_landed"] = rt_made
-        result["red_td_attempted"] = rt_att
-        result["blue_td_landed"] = bt_made
-        result["blue_td_attempted"] = bt_att
-
-    return result
-
-
-def scrape_fight_details(fight_url: str) -> dict:
-    """
-    Scrape detailed stats for a single fight.
     Returns a dict with stats for red and blue fighters.
     """
     try:
@@ -771,7 +694,10 @@ def build_fighter_index_from_fights():
 
 
 if __name__ == "__main__":
-    scrape_all_fighter_profiles(limit=None)
+    # Step A: rescrape all fights with more events
+    scrape_all(max_pages=2) # adjust max_pages to more if you want more data 2 page = ~750 fights
+
+
 
 
 
