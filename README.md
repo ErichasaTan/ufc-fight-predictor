@@ -1,4 +1,4 @@
-# 🥋 UFC Fight Predictor — Machine Learning Pipeline (UFCStats + Odds)
+# 🥋 UFC Fight Predictor — Machine Learning Pipeline
 
 A full end-to-end machine learning project that predicts the winner of UFC fights using scraped UFCStats data, engineered fight features, and optional betting odds.
 This project includes:
